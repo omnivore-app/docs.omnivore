@@ -50,7 +50,7 @@ Once the mobile app is installed:
 
 ## Saving PDFs from a Mac
 
-- Install the [Mac App](https://omnivore.app/install/macos).
+- Install the [Mac App](https://omnivore.app/install/mac).
 - On your Mac, locate the PDF you wish to save and right-click or ctrl+click on the file name.
 - Select Share from the menu and choose Omnivore.
 
