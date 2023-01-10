@@ -32,14 +32,14 @@ This will start postgres, initialize the database, and start the web and api ser
 
 ### 2. Open the browser
 
-Open <http://localhost:3000> and confirm Omnivore is running
+Open `http://localhost:3000` and confirm Omnivore is running
 
 ### 3. Create a test account
 
 Omnivore uses social login, but for testing there is an email + password
 option.
 
-Go to <http://localhost:3000/auth/email-signup> in your browser.
+Go to `http://localhost:3000/auth/email-signup` in your browser.
 
 ## Frontend Development
 
@@ -81,7 +81,7 @@ yarn start
 
 This will start the puppeteer-parse service on port 9090.
 
-In your browser go to <http://localhost:3000/home>, click the `Add Link` button,
+In your browser go to `http://localhost:3000/home`, click the `Add Link` button,
 and enter a URL such as `https://blog.omnivore.app/p/getting-started-with-omnivore`.
 
 You should see a Chromium window open and navigate to your link. When the service
