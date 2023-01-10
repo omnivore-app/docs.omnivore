@@ -1,8 +1,12 @@
 # Welcome to Omnivore
 
-[Omnivore](https://omnivore.app) is a complete, open source read-it-later solution for people who like text.
+[Omnivore](https://omnivore.app) is a complete, open source read-it-later solution for people who love to read.
 
 We built Omnivore because we love reading and we want it to be more fun. Join us!
+
+Save interesting articles, newsletter subscriptions, and documents and read them later — focused and distraction free. Add notes and highlights. Organize your reading list the way you want and sync it across all your devices.
+
+Omnivore Features:
 
 - Highlighting, notes, search, and sharing
 - Full keyboard navigation
@@ -29,16 +33,3 @@ We also have a free hosted version of Omnivore at [omnivore.app](https://omnivor
 We're building our community on Discord. [Join us!](https://discord.gg/h2z5rppzz9)
 
 Read more about Omnivore on our blog. <https://blog.omnivore.app/p/getting-started-with-omnivore>
-
-## Shoutouts :tada:
-
-Omnivore takes advantage of some great open source software:
-
-- [TypeScript](https://www.typescriptlang.org/) - Most of our backend and frontend are written in TypeScript.
-- [Next.js](https://nextjs.org/) - Our frontend is a Next.JS app and is hosted on [Vercel](https://vercel.com/).
-- [SWR](https://swr.vercel.app/) - We do all our data fetching on the web using SWR.
-- [Stitches](https://stitches.dev/) - We use Stitches on the frontend to style our components.
-- [Mozilla Readability](https://github.com/mozilla/readability) - We use Mozilla's Readability library to make pages easier to read.
-- [Swift GraphQL](https://www.swift-graphql.com/) - We generate our GraphQL queries on iOS using Swift GraphQL.
-- [Radix](https://www.radix-ui.com/) - We use Radix UI's components on our frontend.
-- And many more awesome libraries, just checkout our package files to see what we are using.
