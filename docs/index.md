@@ -2,7 +2,7 @@
 
 [Omnivore](https://omnivore.app) is a complete, open source read-it-later solution for people who love to read.
 
-We built Omnivore because we love reading and we want it to be more fun. Join us!
+We built Omnivore because we love reading and we want it to be more fun.
 
 Save interesting articles, newsletter subscriptions, and documents and read them later — focused and distraction free. Add notes and highlights. Organize your reading list the way you want and sync it across all your devices.
 
