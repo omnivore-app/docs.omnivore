@@ -24,20 +24,21 @@ export default {
         text: 'Integrating with other Apps',
         items: [
           { text: 'Logseq', link: '/integrations/logseq' },
-          { text: 'Obsidian', link: '/integrations/obsidian' },
+ //         { text: 'Obsidian', link: '/integrations/obsidian' },
           { text: 'API', link: '/integrations/api' },
           { text: 'Webhooks', link: '/integrations/webhooks' },
 
         ]
       },
-      {
-        text: 'Use Cases',
-        items: [
-          { text: 'Knowledge Workers', link: '/usecases/knowledge-workers' },
-          { text: 'Students', link: '/usecases/students' },
-          { text: 'Lifelong Learners', link: '/usecases/lifelong-learners' },
-        ]
-      },
+      // Comment out for now
+      // {
+      //   text: 'Use Cases',
+      //   items: [
+      //     { text: 'Knowledge Workers', link: '/usecases/knowledge-workers' },
+      //     { text: 'Students', link: '/usecases/students' },
+      //     { text: 'Lifelong Learners', link: '/usecases/lifelong-learners' },
+      //   ]
+      // },
       {
         text: 'Development',
         items: [
