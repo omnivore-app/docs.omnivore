@@ -16,6 +16,7 @@ export default {
           { text: 'Search', link: '/using/search' },
           { text: 'Saved Searches', link: '/using/saved-searches' },
           { text: 'Rules', link: '/using/rules' },
+          { text: 'Importing Data', link: '/using/importing' },
           { text: 'Getting Help', link: '/using/help' },
 
         ]
