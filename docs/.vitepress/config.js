@@ -17,8 +17,8 @@ export default {
           { text: 'Saved Searches', link: '/using/saved-searches' },
           { text: 'Rules', link: '/using/rules' },
           { text: 'Importing Data', link: '/using/importing' },
+          { text: 'Keyboard Commands', link: '/using/keyboard' },
           { text: 'Getting Help', link: '/using/help' },
-
         ]
       },
       {
