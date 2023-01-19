@@ -46,6 +46,12 @@ export default {
           { text: 'Contributing', link: '/development/contributing' },
           { text: 'Local Environment', link: '/development/local' },
         ]
+      },
+      {
+        text: 'Self-hosting',
+        items: [
+          { text: 'Self-hosting', link: '/self-hosting/self-hosting' }
+        ]
       }
     ]
   }
