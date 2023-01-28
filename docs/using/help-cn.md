@@ -11,4 +11,4 @@ editLink: true
 
 - **Discord**: 获得帮助的最佳方式是 [join our Discord](https://discord.gg/h2z5rppzz9) 并在 #help 频道中寻求帮助。
 - **Email**: 给我们发送电子邮件至 [feedback@omnivore.app](mailto:feedback@omnivore.app)
-- **Chat**: 使用应用菜单中的“反馈”菜单项访问我们的支持聊天。
+- **Chat**: 使用应用菜单中的“反馈”菜单项访问我们的支持和聊天。
