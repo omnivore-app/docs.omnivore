@@ -15,7 +15,7 @@ Omnivore 优点:
 - 支持PDF
 - [Web app](https://omnivore.app/) 用 Node.js 和 TypeScript 编写
 - [Native iOS app](https://omnivore.app/install/ios)
-- 适用于安卓用户的渐进式网络应用程序
+- 适用于安卓用户的Progressive Web App
 - 浏览器扩展 [Chrome](https://omnivore.app/install/chrome), [Safari](https://omnivore.app/install/safari), [Firefox](https://omnivore.app/install/firefox), and [Edge](https://omnivore.app/install/edge)
 - 标签 (又名标记)
 - 离线支持
@@ -46,4 +46,4 @@ Omnivore 是一个免费的开源项目，依靠我们社区的帮助来发展�
 - [Follow us on Mastodon](https://pkm.social/@omnivore)
 - [Join us on Discord](https://discord.gg/h2z5rppzz9)
 - [Star on GitHub](https://github.com/omnivore-app/omnivore)
-- [Star our Logseq Plugin Repo](https://github.com/omnivore-app/logseq-omnivore): this helps our ranking in Logseq's marketplace
+- [Star our Logseq Plugin Repo](https://github.com/omnivore-app/logseq-omnivore): 这有助于我们在Logseq市场中的排名。
