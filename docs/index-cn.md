@@ -47,3 +47,6 @@ Omnivore 是一个免费的开源项目，依靠我们社区的帮助来发展�
 - [Join us on Discord](https://discord.gg/h2z5rppzz9)
 - [Star on GitHub](https://github.com/omnivore-app/omnivore)
 - [Star our Logseq Plugin Repo](https://github.com/omnivore-app/logseq-omnivore): 这有助于我们在Logseq市场中的排名。
+
+
+Translation:蒋明强(https://github.com/holton-jiang)
