@@ -38,3 +38,19 @@ Add PDFs to your Omnivore library by sending them to your Omnivore email address
 ## Creating articles in your library
 
 To create an article in your library, send an email to your inbox address and add `OMNIVORE:` as the prefix to your email subject. For example `OMNIVORE: Ten tips for Using Omnivore`. The content of your email will be added to your library, and the subject suffix will be used as the library item title.
+
+## Debugging issues with your email inbox
+
+![Screenshot of recent emails](./images/web-recent-emails-01.png)
+
+### If you don't receive an email
+
+Omnivore keeps a list of your recently received emails, no matter how they are classified. These are available on the [settings/emails/recent](https://omnivore.app/settings/emails/recent) page.
+
+### Viewing email text
+
+You can use the recently received emails to retrieve things like subscription confirmation emails. On the recent emails page, find the email, click the menu button and select `View Text`. This will open the text body of the email.
+
+### Moving the email to your library
+
+If an email was not correctly classified as an article, you can manually move it into your library. On the recent emails page, find the email, click the menu button and select `Mark as article`. This will change the article's classification to `article` and move the item into your library.
