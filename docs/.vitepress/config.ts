@@ -4,6 +4,14 @@ export default defineConfig({
   title: "Omnivore Docs",
   description: "Documentation for the Omnivore reading service.",
 
+  themeConfig: {
+    editLink: {
+      pattern:
+        "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
+      text: "Edit this page on GitHub",
+    },
+  },
+
   locales: {
     root: {
       label: "English",
