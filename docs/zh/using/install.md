@@ -11,7 +11,7 @@ Omnivore 提供官方浏览器扩展和移动应用程序，使保存链接更�
 
 ## 浏览器扩展
 
-浏览器扩展用于保存页面和 URL。安装扩展后，您可以点击 Omnivore 扩展按钮保存当前页面，或点击浏览器上下文菜单保存 URL。有关保存项目的更多信息，请查看我们关于 [saving](./saving.md) 的文档。
+浏览器扩展用于保存页面和 URL。安装扩展后，您可以点击 Omnivore 扩展按钮保存当前页面，或点击浏览器上下文菜单保存 URL。有关保存项目的更多信息，请查看我们关于 [saving](../../using/saving.md) 的文档。
 
 - [Install on Chrome](https://omnivore.app/install/chrome)
 - [Install on Edge](https://omnivore.app/install/edge)
@@ -28,8 +28,8 @@ iOS 和 Android 应用程序用于保存链接、浏览库和阅读保存的内�
 - [Install on iOS](https://omnivore.app/install/ios)
 - [Install on Android](https://omnivore.app/install/android)
 
-## 安装Progressive Web App
+## 安装 Progressive Web App
 
-在Android上的Chrome中登录该应用程序后，您将在屏幕底部看到一个横幅，用于安装Omnivore。这会将 Progressive Web App 安装到您的 Android 主屏幕。
+在 Android 上的 Chrome 中登录该应用程序后，您将在屏幕底部看到一个横幅，用于安装 Omnivore。这会将 Progressive Web App 安装到您的 Android 主屏幕。
 
 ![Screenshot of Android PWA banner](./images/android-install-pwa.jpg)
