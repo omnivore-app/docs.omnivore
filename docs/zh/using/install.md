@@ -32,4 +32,4 @@ iOS 和 Android 应用程序用于保存链接、浏览库和阅读保存的内�
 
 在 Android 上的 Chrome 中登录该应用程序后，您将在屏幕底部看到一个横幅，用于安装 Omnivore。这会将 Progressive Web App 安装到您的 Android 主屏幕。
 
-![Screenshot of Android PWA banner](./images/android-install-pwa.jpg)
+![Screenshot of Android PWA banner](../../using/images/android-install-pwa.jpg)
