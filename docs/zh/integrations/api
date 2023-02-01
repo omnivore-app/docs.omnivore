@@ -17,7 +17,7 @@ Omnivore 公开了一个可以使用 API 令牌进行身份验证的 graphql API
 - 选择到期时间。当 API 密钥过期时，它将停止工作。
 - 将 API 密钥复制到粘贴板。
 
-![Creating an API token](../../images/web-create-api-token.png)
+![Creating an API token](../../integrations/images/web-create-api-token.png)
 
 ::: 提示：创建 API 密钥后，您将无法再次访问其值。
 :::
