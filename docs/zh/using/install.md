@@ -11,7 +11,7 @@ Omnivore 提供官方浏览器扩展和移动应用程序，使保存链接更�
 
 ## 浏览器扩展
 
-浏览器扩展用于保存页面和 URL。安装扩展后，您可以点击 Omnivore 扩展按钮保存当前页面，或点击浏览器上下文菜单保存 URL。有关保存项目的更多信息，请查看我们关于 [saving](../zh/using/saving.md) 的文档。
+浏览器扩展用于保存页面和 URL。安装扩展后，您可以点击 Omnivore 扩展按钮保存当前页面，或点击浏览器上下文菜单保存 URL 链接。有关保存项目的更多信息，请查看我们关于 [saving](../../zh/using/saving.md) 的文档。
 
 - [在 Chrome 上安装](https://omnivore.app/install/chrome)
 - [在 Edge 上安装](https://omnivore.app/install/edge)
