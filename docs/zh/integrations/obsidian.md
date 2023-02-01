@@ -28,7 +28,7 @@ obsidian-omnivore 插件已提交到 Obsidian 市场，但尚未获得批准。�
 
 7. 转到插件设置并设置您的 API 密钥 (在 <https://omnivore.app/settings/api> 生成)。
 
-8. 点击工具栏上的 Omnivore 徽标，将您的 Omnivore 数据同步到 Obsidian 中。
+8. 点击工具栏上的 Omnivore 图标，将您的 Omnivore 数据同步到 Obsidian 中。
 
 ## 示范
 
