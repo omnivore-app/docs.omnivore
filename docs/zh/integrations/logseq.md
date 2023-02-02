@@ -25,7 +25,7 @@ Omninove 通过 [logseq-omnivore](https://github.com/omnivore-app/logseq-omnivor
 
 Omnivore Logseq 插件提供了三个导入数据的选项：
 
-- 导入我的所有文章: 这将导入您保存到 Omnivore 的每篇文章以及您添加到文章中的标签 (tags)，荧光笔高亮和备注。
+- 导入我的所有文章: 这将导入您保存到 Omnivore 的每篇文章以及您添加到文章中的标签 (tags)，荧光笔高亮显示和注释。
 - 仅导入荧光笔高亮显示: 这将导入您保存的具有荧光笔高亮显示的每篇文章。
 - 高级: 这允许您定义要导入的搜索筛选。例如，使用 `label:Newsletter`.
 
