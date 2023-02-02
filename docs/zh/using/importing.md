@@ -31,8 +31,6 @@ Omnivore 支持上传通过从Matter应用程序导出数据生成的 `Archive.z
 
 ## 使用 API 导入
 
-When importing data using the API, if you have a large number of URLs to import, it is best to use the `uploadImportFile` vs the `savePage` APIs.
-
 使用 API 导入数据时，如果要导入大量 URL，最好使用 `uploadImportFile` 而不是 `savePage` API。
 
 使用 `uploadImportFile` API 导入的示例可以在此处找到: [https://github.com/omnivore-app/import-demo](https://github.com/omnivore-app/import-demo)
