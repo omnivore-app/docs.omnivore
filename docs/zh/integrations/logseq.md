@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-Omninove 通过 [logseq-omnivore](https://github.com/omnivore-app/logseq-omnivore) 插件与Logseq集成。该插件允许自定义从 Omnivore 数据同步到 Logseq，控制数据的布局和同步频率。
+Omninove 通过 [logseq-omnivore](https://github.com/omnivore-app/logseq-omnivore) 插件与 Logseq 集成。该插件允许自定义从 Omnivore 数据同步到 Logseq，控制数据的布局和同步频率。
 
 [[toc]]
 
@@ -16,7 +16,7 @@ Omninove 通过 [logseq-omnivore](https://github.com/omnivore-app/logseq-omnivor
 ## 设置 Omnivore Logseq 插件
 
 - 在 Logseq 市场中搜索 Omnivore 并安装插件
-- 在浏览器中打开[https://omnivore.app/settings/api](https://omnivore.app/settings/api) 并创建 API 令牌 (有关创建令牌的详细信息，请参阅 [API](../zh/integrations/api.md) )
+- 在浏览器中打开[https://omnivore.app/settings/api](https://omnivore.app/settings/api) 并创建 API 令牌 (有关创建令牌的详细信息，请参阅 [API](./api.md) )
 - 在 Logseq 中打开 Omnivore 插件设置，然后粘贴您的 API 密钥
 
 ## 自定义从 Omnivore 同步到 Logseq 的数据
