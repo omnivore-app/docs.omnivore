@@ -20,7 +20,7 @@ editLink: true
 - 启动 Omnivore 应用程序并点击文库中已保存的文章以打开阅读器。
 - 轻点“收听”按钮（顶部的耳机图标）以全屏模式开始播放。
 
-![Text to Speech on Omnivore iOS](./images/ios-text-to-speech-001.png)
+![Text to Speech on Omnivore iOS](../../using/images/ios-text-to-speech-001.png)
 
 您可以在大声朗读文本时跟随文本。“向左”或“向右”滑动，也可“向后”或“向前”跳过。
 
@@ -31,7 +31,7 @@ editLink: true
 
 在文库视图中，长按任何文章并选择下载音频。这将下载文章的离线版本，稍后可以播放。
 
-![Downloading offline TTS on iOS](./images/ios-text-to-speech-002.png)
+![Downloading offline TTS on iOS](../../using/images/ios-text-to-speech-002.png)
 
 ## 演示
 
