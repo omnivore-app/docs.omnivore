@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-Omnivore 允许您使用 Webhooks实时发送读取数据。保存或更新页面时，可以触发 webhook。
+Omnivore 允许您使用 Webhooks实时发送阅读数据。保存或更新页面时，可以触发 Webhook。
 
 [[toc]]
 
