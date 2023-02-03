@@ -38,3 +38,20 @@ Omnivore 电子邮件地址将接收电子邮件，检测电子邮件是 PDF 文
 ## 在文库中创建文章
 
 要在文库中创建文章，请向您的收集箱地址发送电子邮件，并将添加 `OMNIVORE:` 作为电子邮件主题的前缀。例如 `OMNIVORE: Ten tips for Using Omnivore`。您的电子邮件内容将添加到您的文库中，主题后缀将用作文库的文章标题。
+
+## 调试电子邮件收集箱的问题
+
+![Screenshot of recent emails](../../using/images/web-recent-emails-01.png)
+
+### 如果您没有收到电子邮件
+
+Omnivore 会保留您最近收到的电子邮件列表，无论它们如何分类。这些可在 [settings/emails/recent](https://omnivore.app/settings/emails/recent) 页面上找到。
+
+### 查看电子邮件文本
+
+您可以使用最近收到的电子邮件来检索，诸如订阅确认邮件等内容。在最近的电子邮件页面上，找到电子邮件，单击菜单按钮并选择 `View Text`。这将打开电子邮件的文本正文。
+
+### 将电子邮件移动到您的文库
+
+如果电子邮件未正确分类为文章，您可以手动将其移入文库中。在最近的电子邮件页面上，找到电子邮件，单击菜单按钮并选择 `Mark as article`. 。这会将文章的分类更改为 `article` <sup>（文章）</sup>，并将该文章移动到您的文库中。
+
