@@ -76,7 +76,7 @@ export default defineConfig({
       },
     },
     zh: {
-      label: "Chinese",
+      label: "Chinese (简体中文)",
       lang: "zh",
       link: "/zh/index",
 
@@ -99,6 +99,10 @@ export default defineConfig({
               { text: "规则", link: "/zh/using/rules" },
               { text: "导入数据", link: "/zh/using/importing" },
               { text: "键盘命令", link: "/zh/using/keyboard" },
+              {
+                text: "管理您的帐户",
+                link: "/zh/using/managing-account",
+              },
               { text: "获取帮助", link: "/zh/using/help" },
             ],
           },
