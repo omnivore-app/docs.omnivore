@@ -34,6 +34,10 @@ export default defineConfig({
               { text: "Rules", link: "/using/rules" },
               { text: "Importing Data", link: "/using/importing" },
               { text: "Keyboard Commands", link: "/using/keyboard" },
+              {
+                text: "Managing your Account",
+                link: "/using/managing-account",
+              },
               { text: "Getting Help", link: "/using/help" },
             ],
           },
@@ -98,15 +102,15 @@ export default defineConfig({
               { text: "获取帮助", link: "/zh/using/help" },
             ],
           },
-           {
-             text: "与其他应用程序集成",
-             items: [
-               { text: "Logseq", link: "/zh/integrations/logseq" },
-          //     //         { text: 'Obsidian', link: '/integrations/obsidian-cn' },
-               { text: "API", link: "/zh/integrations/api" },
-               { text: "Webhooks", link: "/zh/integrations/webhooks" },
-             ],
-           },
+          {
+            text: "与其他应用程序集成",
+            items: [
+              { text: "Logseq", link: "/zh/integrations/logseq" },
+              //     //         { text: 'Obsidian', link: '/integrations/obsidian-cn' },
+              { text: "API", link: "/zh/integrations/api" },
+              { text: "Webhooks", link: "/zh/integrations/webhooks" },
+            ],
+          },
           {
             text: "开发",
             items: [
