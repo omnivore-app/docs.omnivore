@@ -77,7 +77,7 @@ export default defineConfig({
       link: "/zh/index",
 
       title: "Omnivore 使用文档",
-      description: "Documentation for the Omnivore reading service.",
+      description: "Omnivore 阅读服务的文档。",
 
       themeConfig: {
         sidebar: [
@@ -88,8 +88,8 @@ export default defineConfig({
               { text: "保存链接", link: "/zh/using/saving" },
               { text: "阅读", link: "/zh/using/reading" },
               { text: "电子邮件收集箱", link: "/zh/using/inbox" },
-              // zh-TODO: { text: "组织", link: "/zh/using/organizing" },
-              // zh-TODO: { text: "文章转语音", link: "/zh/using/text-to-speech" },
+              { text: "组织", link: "/zh/using/organizing" },
+              { text: "文章转语音", link: "/zh/using/text-to-speech" },
               { text: "搜索", link: "/zh/using/search" },
               { text: "保存的搜索", link: "/zh/using/saved-searches" },
               { text: "规则", link: "/zh/using/rules" },
@@ -114,12 +114,12 @@ export default defineConfig({
               { text: "本地环境", link: "/zh/development/local" },
             ],
           },
-          // zh-TODO: {
-          //   text: "自我托管",
-          //   items: [
-          //     { text: "自我托管", link: "/zh/self-hosting/self-hosting" },
-          //   ],
-          // },
+          {
+            text: "自我托管",
+            items: [
+              { text: "自我托管", link: "/zh/self-hosting/self-hosting" },
+            ],
+          },
         ],
       },
     },
