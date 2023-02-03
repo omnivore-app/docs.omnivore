@@ -83,4 +83,4 @@ yarn start
 在浏览器中转到 `http://localhost:3000/home`，单击 `Add Link` 按钮，
 然后输入网址，例如 `https://blog.omnivore.app/p/getting-started-with-omnivore`.
 
-您应该会看到一个 Chromium 窗口打开并导航到您的链接。当服务完成获取内容后，您将在资料库中看到它。
+您应该会看到一个 Chromium 窗口打开并导航到您的链接。当服务完成获取内容后，您将在文库中看到它。
