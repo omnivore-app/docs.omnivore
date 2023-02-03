@@ -1,6 +1,6 @@
 # 欢迎来到 Omnivore
 
-[Omnivore](https://omnivore.app) 是一个完整的开源稍后阅读解决方案，适合喜欢阅读的人.
+[Omnivore](https://omnivore.app/zh) 是一个完整的开源稍后阅读解决方案，适合喜欢阅读的人.
 
 我们建立 Omnivore 是因为我们喜欢阅读，我们希望它更有趣.
 
@@ -13,7 +13,7 @@ Omnivore 优点:
 - 自动保存您的长文章中的位置
 - 通过电子邮件添加新闻通讯文章 (具有堆栈支持!)
 - 支持PDF
-- [Web 应用程序](https://omnivore.app/) 用 Node.js 和 TypeScript 编写
+- [Web 应用程序](https://omnivore.app/zh) 用 Node.js 和 TypeScript 编写
 - [原生 iOS 应用程序](https://omnivore.app/install/ios)
 - 适用于安卓用户的 Progressive Web App
 - 浏览器扩展 [Chrome](https://omnivore.app/install/chrome), [Safari](https://omnivore.app/install/safari), [Firefox](https://omnivore.app/install/firefox), 和 [Edge](https://omnivore.app/install/edge)
@@ -24,7 +24,7 @@ Omnivore 优点:
 
 每个部分都是完全开源的！分支、扩展或部署到您自己的服务器。
 
-我们还有一个免费的 Omnivore 托管版本，网址为： [omnivore.app](https://omnivore.app/) -- 立即尝试！
+我们还有一个免费的 Omnivore 托管版本，网址为： [omnivore.app/zh](https://omnivore.app/) -- 立即尝试！
 
 <img width="981" alt="omnivore-readme-screenshot" src="https://user-images.githubusercontent.com/75189/153696698-9e4f1bdd-5954-465b-8ab0-b4eacc60f779.png">
 
