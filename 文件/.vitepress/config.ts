@@ -92,7 +92,7 @@ export default defineConfig({
               { text: "保存链接", link: "/zh/using/saving" },
               { text: "阅读", link: "/zh/using/reading" },
               { text: "电子邮件收集箱", link: "/zh/using/inbox" },
-              { text: "组织", link: "/zh/using/organizing" },
+              { text: "整理", link: "/zh/using/organizing" },
               { text: "文章转语音", link: "/zh/using/text-to-speech" },
               { text: "搜索", link: "/zh/using/search" },
               { text: "保存的搜索", link: "/zh/using/saved-searches" },
