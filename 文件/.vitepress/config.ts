@@ -76,7 +76,7 @@ export default defineConfig({
       },
     },
     zh: {
-      label: "Chinese",
+      label: "Chinese (简体中文)",
       lang: "zh",
       link: "/zh/index",
 
@@ -92,13 +92,17 @@ export default defineConfig({
               { text: "保存链接", link: "/zh/using/saving" },
               { text: "阅读", link: "/zh/using/reading" },
               { text: "电子邮件收集箱", link: "/zh/using/inbox" },
-              { text: "组织", link: "/zh/using/organizing" },
+              { text: "整理", link: "/zh/using/organizing" },
               { text: "文章转语音", link: "/zh/using/text-to-speech" },
               { text: "搜索", link: "/zh/using/search" },
               { text: "保存的搜索", link: "/zh/using/saved-searches" },
               { text: "规则", link: "/zh/using/rules" },
               { text: "导入数据", link: "/zh/using/importing" },
               { text: "键盘命令", link: "/zh/using/keyboard" },
+              {
+                text: "管理您的帐户",
+                link: "/zh/using/managing-account",
+              },
               { text: "获取帮助", link: "/zh/using/help" },
             ],
           },
