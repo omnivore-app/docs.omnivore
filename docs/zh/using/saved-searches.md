@@ -1,5 +1,5 @@
 ---
-title: Saved Searches
+title: 保存的搜索
 editLink: true
 ---
 

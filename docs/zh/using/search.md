@@ -1,5 +1,5 @@
 ---
-title: Search
+title: 搜索
 editLink: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Text to Speech
+title: 文章转语音
 editLink: true
 ---
 
@@ -11,7 +11,8 @@ editLink: true
 
 ## 使用文章转语音大声朗读文章
 
-::: 提示：文本转语音目前仅在适用于 iOS 的 Omnivore 应用程序中可用。
+:::tip
+文本转语音目前仅在适用于 iOS 的 Omnivore 应用程序中可用。
 :::
 
 以下是它的工作原理：

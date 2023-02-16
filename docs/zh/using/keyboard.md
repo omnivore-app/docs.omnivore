@@ -1,5 +1,5 @@
 ---
-title: Keyboard Commands
+title: 键盘命令
 editLink: true
 ---
 

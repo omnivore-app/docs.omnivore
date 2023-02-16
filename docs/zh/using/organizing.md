@@ -1,5 +1,5 @@
 ---
-title: Organizing with Labels
+title: 整理
 editLink: true
 ---
 
@@ -25,7 +25,8 @@ editLink: true
 
 标签将显示在文库中的链接旁边。点击它以查看具有相同标签的所有链接。
 
-::: 提示：注释: Omnivore 会自动分配一些标签，例如“新闻稿件”。
+:::tip
+注释: Omnivore 会自动分配一些标签，例如“新闻稿件”。
 :::
 
 ## 搜索

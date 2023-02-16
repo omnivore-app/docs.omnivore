@@ -1,5 +1,5 @@
 ---
-title: Reading in Omnivore
+title: 阅读
 editLink: true
 ---
 

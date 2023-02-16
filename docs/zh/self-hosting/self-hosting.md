@@ -1,5 +1,5 @@
 ---
-title: Self-hosting Omnivore
+title: 自我托管
 editLink: true
 ---
 
@@ -7,7 +7,8 @@ editLink: true
 
 [[toc]]
 
-::: 危险：自我托管文档尚未完成。
+:::danger
+🚧 自我托管文档尚未完成。
 :::
 
 我们正在为希望自我托管的用户开发新文档和简化的部署过程。
