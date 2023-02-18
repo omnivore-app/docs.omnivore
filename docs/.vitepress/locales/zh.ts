@@ -20,7 +20,7 @@ export const themeConfig:DefaultTheme.Config = {
         { text: "保存的搜索", link: "/zh/using/saved-searches" },
         { text: "规则", link: "/zh/using/rules" },
         { text: "导入数据", link: "/zh/using/importing" },
-        { text: "键盘命令", link: "/zh/using/keyboard" },
+        { text: "快捷键", link: "/zh/using/keyboard" },
         {
           text: "管理您的帐户",
           link: "/zh/using/managing-account",
