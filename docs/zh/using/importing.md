@@ -11,7 +11,7 @@ Omnivore 允许从其他数据源导入数据。 使用导入 API 时，每天�
 
 [[toc]]
 
-## 从物质导入数据
+## 从 Matter 导入数据
 
 :::warning
 Matter 数据导入器目前处于测试阶段，如果您遇到任何问题，请通过以下方式通知我们 [feedback@omnivore.app](mailto:feedback@omnivore.app)
