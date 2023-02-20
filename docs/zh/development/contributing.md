@@ -1,5 +1,5 @@
 ---
-title: Contributing to Omnivore
+title: 贡献
 editLink: true
 ---
 

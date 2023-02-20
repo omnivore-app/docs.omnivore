@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: 安装
 editLink: true
 ---
 
@@ -22,7 +22,8 @@ Omnivore 提供官方浏览器扩展和移动应用程序，使保存链接更�
 
 iOS 和 Android 应用程序用于保存链接、浏览库和阅读保存的内容。
 
-::: 警告 Android 应用处于预发布状态且功能有限。我们建议结合使用 Android 应用和 Android 上的 Progressive Web App，以获得最佳体验。
+:::warning
+Android 应用处于预发布状态且功能有限。我们建议结合使用 Android 应用和 Android 上的 Progressive Web App，以获得最佳体验。
 :::
 
 - [在 iOS 上安装](https://omnivore.app/install/ios)

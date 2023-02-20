@@ -1,5 +1,5 @@
 ---
-title: Setting up your local development environment
+title: 本地环境
 editLink: true
 ---
 

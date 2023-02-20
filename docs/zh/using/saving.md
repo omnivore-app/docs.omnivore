@@ -1,5 +1,5 @@
 ---
-title: Saving to your Omnivore Library
+title: 保存链接
 editLink: true
 ---
 
@@ -45,7 +45,8 @@ editLink: true
 - 将 Omnivore 电子邮件地址粘贴到注册表单中。
 - 新的新闻稿件将自动发送到您的 Omnivore 收集箱.
 
-::: 提示：如果 Omnivore 收到一封看起来不像文章的电子邮件，例如欢迎消息或作者的说明，它将被转发到您的 Omnivore 帐户电子邮件地址 (您注册账号时使用的电子邮件).
+:::tip
+如果 Omnivore 收到一封看起来不像文章的电子邮件，例如欢迎消息或作者的说明，它将被转发到您的 Omnivore 帐户电子邮件地址 (您注册账号时使用的电子邮件).
 :::
 
 ## 从 Mac 保存 PDF

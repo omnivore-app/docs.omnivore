@@ -1,5 +1,5 @@
 ---
-title: Getting Help
+title: 获取帮助
 editLink: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Sync all your reading to Obsidian
+title: Obsidian
 editLink: true
 ---
 

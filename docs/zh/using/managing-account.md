@@ -1,5 +1,5 @@
 ---
-title: Managing your Account and Library
+title: 管理您的账户
 editLink: true
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Importing from other Clients
+title: 导入数据
 editLink: true
 ---
 
@@ -11,9 +11,10 @@ Omnivore 允许从其他数据源导入数据。 使用导入 API 时，每天�
 
 [[toc]]
 
-## 从物质导入数据
+## 从 Matter 导入数据
 
-::: 警告 Matter 数据导入器目前处于测试阶段，如果您遇到任何问题，请通过以下方式通知我们 [feedback@omnivore.app](mailto:feedback@omnivore.app)
+:::warning
+Matter 数据导入器目前处于测试阶段，如果您遇到任何问题，请通过以下方式通知我们 [feedback@omnivore.app](mailto:feedback@omnivore.app)
 :::
 
 Omnivore 支持上传通过从Matter应用程序导出数据生成的 `Archive.zip` 文件。
@@ -26,7 +27,8 @@ Omnivore 支持上传通过从Matter应用程序导出数据生成的 `Archive.z
 
 导入程序将提取 `_matter_history.csv` 文件中列出的 URL。如果存档包含 URL 的 HTML 内容条目，则将使用提供的内容。否则，Omnivore 将尝试重新获取该URL。
 
-::: 提示 目前导入器不支持从 Matter 导入荧光笔高亮显示和注释。
+:::tip
+目前导入器不支持从 Matter 导入荧光笔高亮显示和注释。
 :::
 
 ## 使用 API 导入

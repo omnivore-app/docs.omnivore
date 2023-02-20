@@ -1,5 +1,5 @@
 ---
-title: Sync all your reading to Logseq
+title: Logseq
 editLink: true
 ---
 

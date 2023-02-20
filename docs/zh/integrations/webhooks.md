@@ -1,5 +1,5 @@
 ---
-title: Sending your Omnivore data to other apps with Webhooks
+title: Webhooks
 editLink: true
 ---
 
