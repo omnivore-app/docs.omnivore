@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-::: info TLDR: Omnivore does not sell your data, we store your data on our servers so it can be accessed via the web and synced to devices, we use a limited set of analytics and logging tools to ensure the service is functioning and to debug issues.
+::: info TLDR: Omnivore does not sell your data, we store your data on our servers so it can be accessed via the web and synced to devices. We use a limited set of analytics and logging tools to ensure the service is functioning and to debug issues. We use email to contact you and send you in-app messages (but you can always opt out of our emails).
 :::
 
 Omnivore Media provides both the website and the Omnivore Media mobile app as a Free app. This SERVICE is provided by Omnivore Media at no cost to its members and is intended for use as is.
