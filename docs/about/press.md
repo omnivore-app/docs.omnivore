@@ -35,7 +35,17 @@ Power user's like to save articles, PDFs, and newsletters to Omnivore to read la
 
 ## Screenshots and Graphics
 
+If you need higher resolution versions of any of these graphics, or any other assistance, please contact us at [feedback@omnivore.app](mailto:feedback@omnivore.app).
+
+## Logo
+
+![](./images/default-omnivore-logo-small.png)
+Omnivore Logo
+
 ## iOS Screenshots
+
+![iPhone Text to Speech](./images/iphone-feature-library.png)
+Omnivore's Library UI on iPhone
 
 ![iPhone Text to Speech](./images/iphone-feature-TTS.png)
 Omnivore's Text to Speech UI on iPhone
