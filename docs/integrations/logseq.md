@@ -72,7 +72,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 
 Default article template:
 
-```mustache
+```
 [{{{title}}}]({{{omnivoreUrl}}})
 collapsed:: true
 site:: {{#siteName}}[{{{siteName}}}]{{/siteName}}({{{originalUrl}}})
@@ -99,7 +99,7 @@ date-published:: {{{datePublished}}}
 
 Default highlight template:
 
-```mustache
+```
 > {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #[[{{{name}}}]] {{/labels}}
 ```
 
