@@ -39,6 +39,8 @@ Mustache is a simple and logic-less templating language that allows you to creat
 
 There are several types of Mustache tags, including:
 
+::: v-pre
+
 - `{{ variable }}`: Renders the value of a variable.
 - `{{# section }}` ... `{{/ section }}`: Renders a section of the template if the value of the section is true, such as an array or an object.
 - `{{^ inverted section }}` ... `{{/ inverted section }}`: Renders a section of the template if the value of the section is false.
@@ -50,6 +52,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - `{{^ emptyList }}` ... `{{/ emptyList }}`: Renders a section of the template if a list is not empty.
 - `{{& variable }}` or `{{{ variable }}}`: Renders the value of a variable without escaping HTML characters.
 - `{{> partial }}`: Renders a partial template, which is a reusable template that can be included in other templates.
+:::
 
 ### Variables available to the article template
 
@@ -72,7 +75,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 
 Default article template:
 
-```mustache
+```
 [{{{title}}}]({{{omnivoreUrl}}})
 collapsed:: true
 site:: {{#siteName}}[{{{siteName}}}]{{/siteName}}({{{originalUrl}}})
@@ -99,7 +102,7 @@ date-published:: {{{datePublished}}}
 
 Default highlight template:
 
-```mustache
+```
 > {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #[[{{{name}}}]] {{/labels}}
 ```
 
