@@ -1,9 +1,10 @@
-import { DefaultTheme, LocaleConfig } from 'vitepress'
-import * as common from './common'
-export const themeConfig:DefaultTheme.Config = {
+import { DefaultTheme, LocaleConfig } from "vitepress";
+import * as common from "./common";
+export const themeConfig: DefaultTheme.Config = {
   ...common.themeConfig,
   editLink: {
-    pattern: "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
+    pattern:
+      "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
     text: "Edit this page on GitHub",
   },
   sidebar: [
@@ -32,7 +33,7 @@ export const themeConfig:DefaultTheme.Config = {
       text: "Integrating with other Apps",
       items: [
         { text: "Logseq", link: "/integrations/logseq" },
-        //         { text: 'Obsidian', link: '/integrations/obsidian' },
+        { text: "Obsidian", link: "/integrations/obsidian" },
         { text: "API", link: "/integrations/api" },
         { text: "Webhooks", link: "/integrations/webhooks" },
       ],
@@ -55,19 +56,17 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: "Self-hosting",
-      items: [
-        { text: "Self-hosting", link: "/self-hosting/self-hosting" },
-      ],
+      items: [{ text: "Self-hosting", link: "/self-hosting/self-hosting" }],
     },
   ],
-}
-export const title = 'Omnivore Docs'
-export const description = 'Documentation for the Omnivore reading service.'
+};
+export const title = "Omnivore Docs";
+export const description = "Documentation for the Omnivore reading service.";
 
-export const en:LocaleConfig<DefaultTheme.Config>[string] = {
-  label: 'English',
-  lang: 'en',
+export const en: LocaleConfig<DefaultTheme.Config>[string] = {
+  label: "English",
+  lang: "en",
   title,
   description,
-  themeConfig
-}
+  themeConfig,
+};
