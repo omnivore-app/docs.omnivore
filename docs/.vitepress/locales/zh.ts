@@ -1,9 +1,10 @@
-import { DefaultTheme, LocaleConfig } from 'vitepress'
-import * as common from './common'
-export const themeConfig:DefaultTheme.Config = {
+import { DefaultTheme, LocaleConfig } from "vitepress";
+import * as common from "./common";
+export const themeConfig: DefaultTheme.Config = {
   ...common.themeConfig,
   editLink: {
-    pattern: "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
+    pattern:
+      "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
     text: "在 GitHub 上编辑此页面",
   },
   sidebar: [
@@ -46,18 +47,16 @@ export const themeConfig:DefaultTheme.Config = {
     },
     {
       text: "自我托管",
-      items: [
-        { text: "自我托管", link: "/zh/self-hosting/self-hosting" },
-      ],
+      items: [{ text: "自我托管", link: "/zh/self-hosting/self-hosting" }],
     },
   ],
-}
-export const title = 'Omnivore 使用文档'
-export const description = 'Omnivore 阅读服务的文档。'
-export const zhCN:LocaleConfig<DefaultTheme.Config>[string] = {
-  label: '简体中文',
-  lang: 'zh-CN',
+};
+export const title = "Omnivore 使用文档";
+export const description = "Omnivore 阅读服务的文档。";
+export const zhCN: LocaleConfig<DefaultTheme.Config>[string] = {
+  label: "简体中文",
+  lang: "zh-CN",
   title,
   description,
-  themeConfig
-}
+  themeConfig,
+};

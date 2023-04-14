@@ -21,6 +21,7 @@ Omnivore Features:
 - Offline support
 - Text to speech (iOS only)
 - [Logseq](https://logseq.com/) support via our [Logseq Plugin](https://github.com/omnivore-app/logseq-omnivore)
+- [Obsidian](https://obsidian.md/) support via our [Obsidian Plugin](https://github.com/omnivore-app/obsidian-omnivore)
 
 Every single part is fully open source! Fork it, extend it, or deploy it to your own server.
 
@@ -28,7 +29,7 @@ We also have a free hosted version of Omnivore at [omnivore.app](https://omnivor
 
 <img width="981" alt="omnivore-readme-screenshot" src="https://user-images.githubusercontent.com/75189/153696698-9e4f1bdd-5954-465b-8ab0-b4eacc60f779.png">
 
-## Join us on Discord! :speech_balloon:
+## Join us on Discord! :speech_balloon
 
 We're building our community on Discord. [Join us!](https://discord.gg/h2z5rppzz9)
 
@@ -41,9 +42,10 @@ Omnivore is a free and open-source project and relies on help from our community
 If you would like to financially assist Omnivore please [contribute on Open Collective](https://opencollective.com/omnivore).
 
 - Leave us a review in the AppStore or browser extension store
-- [Tweet about Omnivore](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@OmnivoreApp%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20https://omnivore.app)
+- [Tweet about Omnivore](https://twitter.com/intent/tweet?text=I%20recently%20started%20using%20@OmnivoreApp%20as%20a%20free,%20open-source%20read-it-later%20app.%20Check%20it%20out:%20<https://omnivore.app)>
 - [Follow us on Twitter](https://twitter.com/omnivoreapp)
 - [Follow us on Mastodon](https://pkm.social/@omnivore)
 - [Join us on Discord](https://discord.gg/h2z5rppzz9)
 - [Star on GitHub](https://github.com/omnivore-app/omnivore)
 - [Star our Logseq Plugin Repo](https://github.com/omnivore-app/logseq-omnivore): this helps our ranking in Logseq's marketplace
+- [Star our Obsidian Plugin Repo](https://github.com/omnivore-app/obsidian-omnivore): this helps our ranking in Obsidian's community plugins
