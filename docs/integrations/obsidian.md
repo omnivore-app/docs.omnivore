@@ -18,10 +18,10 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 ## Installation
 
-1. Install the plugin from the commnunity or build it from source and load unpacked plugin.
+1. Install and enable the plugin from the Community Plugins section of Obsidian or [build it from source](https://github.com/omnivore-app/obsidian-omnivore) and load the unpacked plugin.
 2. Sign up for an [Omnivore account](https://omnivore.app).
 3. Go to [Omnivore](https://omnivore.app/settings/api) and create an API key.
-4. Open settings and add your API key.
+4. Open the Omnivore plugin settings in Obsidian and add your API key.
 5. Run Omnivore sync by opening the command palette (Ctrl + P or CMD + P). Type Omnivore and select the option **Omnivore: Sync**.
 
 ## Customizing which data is synced from Omnivore to Obsidian
