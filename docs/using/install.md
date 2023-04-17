@@ -11,7 +11,7 @@ Omnivore offers browser extensions and mobile apps to make saving links easier.
 
 ## Browser Extensions
 
-The browser extension is used to save pages and URLs. With the extension installed you can tap the Omnivore extension button to save the current page, or the browser context menu to save a URL. For more info on saving items checkout our docs on [saving](./saving.md).
+The browser extension is used to save pages and URLs. With the extension installed you can tap the Omnivore extension button to save the current page, or the browser context menu to save a URL. For more info on saving items checkout our docs on [saving to your Omnivore library](./saving.md).
 
 - [Install on Chrome](https://omnivore.app/install/chrome)
 - [Install on Edge](https://omnivore.app/install/edge)
@@ -22,7 +22,7 @@ The browser extension is used to save pages and URLs. With the extension install
 
 The iOS and Android apps are used to save links, browse your library, and read saved content.
 
-::: warning the Android app is in a pre-release state and has limited functionality. We recommend using a combination of the Android app and the Progressive Web App on Android for the best experience
+::: warning The Android app is in a pre-release state and has limited functionality. We recommend using a combination of the Android app and the Progressive Web App on Android for the best experience.
 :::
 
 - [Install on iOS](https://omnivore.app/install/ios)
