@@ -5,8 +5,16 @@ export const themeConfig: DefaultTheme.Config = {
   editLink: {
     pattern:
       "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
-    text: "在 GitHub 上编辑此页面",
+    text: "在 GitHub 中编辑此页面",
   },
+  
+  darkModeSwitchLabel: '主题',
+  sidebarMenuLabel: '目录',
+  returnToTopLabel: '回到顶部',
+  lastUpdatedText: '最后更新时间',
+  docFooter: { prev: '上一页', next: '下一页', },
+  outlineTitle: '此页的章节',
+  
   sidebar: [
     {
       text: "使用 Omnivore",
