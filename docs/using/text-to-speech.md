@@ -25,7 +25,7 @@ Here’s how it works:
 You can follow along with the text while it is read aloud. Swipe left or right to skip backward or forward.
 
 - Tap the down-arrow or swipe down from the top to use mini-player mode.
-- Tap the (three dots) icon to access additional playback controls.
+- Tap the three dots icon to access additional playback controls.
 
 ## Downloading audio for Offline Playback
 

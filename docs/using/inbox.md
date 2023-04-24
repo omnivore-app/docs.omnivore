@@ -15,7 +15,7 @@ An Omnivore email address will receive email, detect whether the email is a PDF 
 
 1. On the Omnivore website or app, tap your photo, initial, or avatar in the top right corner to access the profile menu. Select Emails from the menu.
 
-2. Tap Create a New Email Address to add a new email address (ex: username-123abc@inbox.omnivore.app) to the list.
+2. Tap Create a New Email Address to add a new email address (e.g. username-123abc@inbox.omnivore.app) to the list.
 
 3. Click the Copy icon next to the email address.
 
@@ -25,7 +25,7 @@ An Omnivore email address will receive email, detect whether the email is a PDF 
 
 6. New newsletters will be automatically delivered to your Omnivore inbox.
 
-::: tip If Omnivore receive’s an email that does not look like an article, such as a welcome message, or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
+::: tip If Omnivore receives an email that does not look like an article, such as a welcome message, or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
 :::
 
 ## Sending PDFs to your Omnivore Email Address

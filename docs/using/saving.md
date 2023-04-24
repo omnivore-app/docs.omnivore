@@ -39,19 +39,19 @@ Once the mobile app is installed:
 ## Newsletter Subscriptions via Email
 
 - On the Omnivore website or app, tap your photo, initial, or avatar in the top right corner to access the profile menu. Select Emails from the menu.
-- Tap Create a New Email Address to add a new email address (ex: username-123abc@inbox.omnivore.app) to the list.
+- Tap Create a New Email Address to add a new email address (e.g. username-123abc@inbox.omnivore.app) to the list.
 - Click the Copy icon next to the email address.
 - Navigate to the signup page for the newsletter you wish to subscribe to.
 - Paste the Omnivore email address into the signup form.
 - New newsletters will be automatically delivered to your Omnivore inbox.
 
-::: tip If Omnivore receive’s an email that does not look like an article, such as a welcome message, or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
+::: tip If Omnivore receives an email that does not look like an article, such as a welcome message or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
 :::
 
 ## Saving PDFs from a Mac
 
 - Install the [Mac App](https://omnivore.app/install/mac).
-- On your Mac, locate the PDF you wish to save and right-click or ctrl+click on the file name.
+- On your Mac, locate the PDF you wish to save and right-click or command+click on the file name.
 - Select Share from the menu and choose Omnivore.
 
 The link will appear in your Library the next time you refresh it.
@@ -59,3 +59,5 @@ The link will appear in your Library the next time you refresh it.
 ## Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HfQxQPT5-tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+predominantly
