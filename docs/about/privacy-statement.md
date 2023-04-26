@@ -12,6 +12,8 @@ Last updated: 2023-04-26
 
 This document is meant as a brief overview of how Omnivore handles private information. For more details, please review our [Privacy Policy](../misc/privacy-policy.md).
 
+We understand that data privacy is a big concern to many of our users, and that many potential users are cautious of new services (especially free ones). As a free and open-source project run by a small team, sometimes our documentation isn't as thorough as it could be. If you have questions or feedback on anything, please don't assume maliciousness and feel free to contact us.
+
 ## What Personal Information we collect
 
 When you sign up for an Omnivore account we ask you for an email address, name, and username. If you choose to sign up using a social login (Google or Apple), we will request an avatar image.
@@ -37,7 +39,7 @@ We use the open source [Posthog](https://posthog.com) for analytics. We do not s
 
 ## Third party services
 
-The app does use third-party services that may collect information used to identify you.
+The app does use third-party services that may collect information used to identify you. These services are used to run parts of the service and ensure the application's health.
 
 - [Google Play Services](https://www.google.com/policies/privacy/?ref=logseq-blog)
 - [Sentry](https://sentry.io/privacy/)
@@ -46,7 +48,7 @@ The app does use third-party services that may collect information used to ident
 
 ## Log Data
 
-Using Omnivore creates Log Data. This data is used to debug issues and provider customer support.
+Using Omnivore creates log data. This data is used to debug issues and provider customer support.
 
 This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
 

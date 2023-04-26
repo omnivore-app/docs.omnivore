@@ -7,6 +7,9 @@ editLink: true
 
 Last updated: 2023-04-26
 
+::: warning For a simplified overview of privacy check out our [Privacy Statement](../about/privacy-statement.md).
+:::
+
 ## Introduction
 
 This privacy policy (“Privacy Policy”) applies to all visitors and users of the omnivore.app hosted services and websites (collectively, the “Website” or “Websites”) which are offered by Omnivore Media Inc and describes how we process your personal information in connection with those Websites, and how we collect information through the use of cookies and related technologies. It also tells you how you can access and update your personal information and describes the data protection rights that may be available under your country’s or state's laws, including (in the European Economic Area ("EEA"), and UK), a right to object to some processing that we carry out or, where we rely on consent, how to withdraw that consent. Please read this Privacy Policy carefully. By accessing or using any part of the Websites or self-managed installations, you acknowledge you have been informed of and consent to our practices with regard to your personal information and data.
