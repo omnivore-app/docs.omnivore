@@ -38,7 +38,7 @@ Open `http://localhost:3000` and confirm Omnivore is running
 
 During database setup docker-compose creates an account `demo@omnivore.app`, password: `demo`.
 
-Go to `http://localhost:3000/auth/email-signup` in your browser.
+Go to <http://localhost:3000/> in your browser and choose `Continue with Email` to login.
 
 ## Frontend Development
 
