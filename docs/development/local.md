@@ -34,10 +34,9 @@ This will start postgres, initialize the database, and start the web and api ser
 
 Open `http://localhost:3000` and confirm Omnivore is running
 
-### 3. Create a test account
+### 3. Login with the test account
 
-Omnivore uses social login, but for testing there is an email + password
-option.
+During database setup docker-compose creates an account `demo@omnivore.app`, password: `demo`.
 
 Go to `http://localhost:3000/auth/email-signup` in your browser.
 
