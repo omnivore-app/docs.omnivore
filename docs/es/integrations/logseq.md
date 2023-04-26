@@ -31,9 +31,9 @@ El plugin Omnivore Logseq ofrece tres opciones para importar datos:
 
 ## Controlar la disposición de los datos importados a Logseq
 
-El plugin Omnivore Logseq usa la plantilla de lenguaje [mustache](https://mustache.github.io/) para definir cómo se guardan los datos importados en Logseq. La configuración del plugin le permite definir la plantilla para el diseño de un artículo y el diseño de resaltado. Se utilizarán las plantillas predeterminadas si no define las suyas propias.
+El plugin Omnivore Logseq usa la lenguaje de plantillas [mustache](https://mustache.github.io/) para definir cómo se guardan los datos importados en Logseq. La configuración del plugin le permite definir la plantilla para el diseño de un artículo y el diseño de resaltado. Se utilizarán las plantillas predeterminadas si no define las suyas propias.
 
-### Lenguaje de plantilla de Mustache
+### Lenguaje de plantillas Mustache
 
 Mustache es un lenguaje de plantillas simple y sin lógica que le permite crear plantillas fáciles de leer y mantener. Las plantillas de Mustache constan de etiquetas, que son marcadores de posición que se reemplazan con valores reales cuando se representa la plantilla.
 
