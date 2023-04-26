@@ -11,7 +11,6 @@ export const themeConfig: DefaultTheme.Config = {
     {
       text: "About",
       items: [
-        { text: "Team", link: "/about/team" },
         { text: "Privacy Statement", link: "/about/privacy-statement" },
         { text: "Pricing", link: "/about/pricing" },
       ],
