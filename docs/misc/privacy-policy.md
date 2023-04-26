@@ -5,67 +5,133 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-::: info TLDR: Omnivore does not sell your data, we store your data on our servers so it can be accessed via the web and synced to devices. We use a limited set of analytics and logging tools to ensure the service is functioning and to debug issues. We use email to contact you and send you in-app messages (but you can always opt out of our emails).
-:::
+Last updated: 2023-04-26
 
-Omnivore Media provides both the website and the Omnivore Media mobile app as a Free app. This SERVICE is provided by Omnivore Media at no cost to its members and is intended for use as is.
+## Introduction
 
-This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
+This privacy policy (“Privacy Policy”) applies to all visitors and users of the omnivore.app hosted services and websites (collectively, the “Website” or “Websites”) which are offered by Omnivore Media Inc and describes how we process your personal information in connection with those Websites, and how we collect information through the use of cookies and related technologies. It also tells you how you can access and update your personal information and describes the data protection rights that may be available under your country’s or state's laws, including (in the European Economic Area ("EEA"), and UK), a right to object to some processing that we carry out or, where we rely on consent, how to withdraw that consent. Please read this Privacy Policy carefully. By accessing or using any part of the Websites or self-managed installations, you acknowledge you have been informed of and consent to our practices with regard to your personal information and data.
 
-If you choose to use my Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that I collect is used for providing and improving the Service. I will not use or share your information with anyone except as described in this Privacy Policy.
+Unless otherwise stated, we act as the data controller for the data processing operations described in this Privacy Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at [terms](https://omnivore.app/terms) unless otherwise defined in this Privacy Policy.
+We may provide additional information about our privacy practices in other places - for example, when we ask you to provide personal information in connection with a particular service or when you apply for a job with us.
 
-## Information Collection and Use
+## What Information Omnivore collects and why
 
-For a better experience, while using our Service, I may require you to provide us with certain personally identifiable information. The information that I request will be retained on your device and is not collected by me in any way.
+### Information from website visitors
 
-The app does use third-party services that may collect information used to identify you.
+Like most website operators, Omnivore automatically collects i) technical information about your device including your device's internet protocol (IP) address; and (ii) information about your visit to our Websites (the referral URL, the content viewed and the content interacted with). Some of this information is collected using cookies and related technologies. See below for further information on these technologies. We collect this information to better understand how visitors use our Websites, to improve our Websites and experience for visitors, and to monitor the security of the Websites.
 
-Link to the privacy policy of third-party service providers used by the app
+For logged-in users, Omnivore also collects this information on our application using our own software, to help us understand how to make the deployments more useful for different categories of user.
 
-- [Google Play Services](https://www.google.com/policies/privacy/?ref=logseq-blog)
-- [Sentry](https://sentry.io/privacy/)
-- [Twilio](https://www.twilio.com/legal/privacy) (Segment and Sendgrid)
+## Personal information
 
-## Log Data
+You may choose to interact with our Websites in ways that provide us with your personal information. In some instances, a User ID is generated for form and URL tracking, page views, page pings and usage counts in order to ascertain product performance and development. The amount and type of information that Omnivore gathers depends on the nature of your interaction with us, as well as the amount of information you choose to share. We will also collect the information you provide with us in connection with creating an account. If you report a security vulnerability to Omnivore and request public acknowledgement, then we may publicly disclose the personal information you provided to us in connection with the report, including your name to fulfil your request for acknowledgement. In each case, Omnivore collects such personal information only insofar as is necessary or appropriate to fulfil the purpose of your interaction with or your request to Omnivore. We will not disclose your personal information other than as described in this Privacy Policy.
 
-I want to inform you that whenever you use my Service, in a case of an error in the app I collect data and information (through third-party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing my Service, the time and date of your use of the Service, and other statistics.
+## Information Omnivore does not collect
 
-## Cookies
+Omnivore does not intentionally collect sensitive or special category personal information, such as genetic data, biometric data for the purposes of uniquely identifying a natural person, health information, or religious information.
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device’s internal memory.
+Omnivore does not knowingly collect information from or direct any of our Website or content specifically to children under the age of 18. If we learn or have reason to suspect that a user is under the age of 18, we will close that account.
 
-This Service does not use these “cookies” explicitly. However, the app may use third-party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+## Lawful basis and purposes for processing your personal information
 
-## Service Providers
+To fulfil a contract or take steps linked to a contract with you
 
-I may employ third-party companies and individuals due to the following reasons:
+We use your personal information to:
 
-To facilitate our Service;
-To provide the Service on our behalf;
-To perform Service-related services; or
-To assist us in analyzing how our Service is used.
-I want to inform users of this Service that these third parties have access to their Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+- administer access to your accounts;
+- manage our customer relationships;
+- provide our products and services and send you service related communications; and
+  provide you with customer support.
 
-## Security
+### We may rely on your consent:
 
-I value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and I cannot guarantee its absolute security.
+- Where you ask us to send marketing information (e.g. newsletter updates) via a medium where we need your consent under applicable law (for example email marketing in some countries);
+- Where you give us consent to place cookies or similar technologies;
+  On other occasions where we ask for your consent, for the purpose we explain at the time.
+- You may withdraw your consent at any time through the unsubscribe feature provided with the relevant marketing email or by contacting us using the details in the ‘Contacting Omnivore About Your Privacy’ section of this Privacy Policy.
 
-## Links to Other Sites
+## How Omnivore uses and protects your personal information
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by me. Therefore, I strongly advise you to review the Privacy Policy of these websites. I have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+### Sharing your information
 
-## Children’s Privacy
+Omnivore may share your personal information with the third-parties listed below for the purposes that are described in this Privacy Policy or otherwise with your consent.
 
-These Services do not address anyone under the age of 13. I do not knowingly collect personally identifiable information from children under 13 years of age. In the case I discover that a child under 13 has provided me with personal information, I immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact me so that I will be able to do the necessary actions.
+Omnivore only shares your personal information with those of its employees, contractors, and affiliated organizations that (i) need to know that personal information in order to process it on Omnivore's behalf or to provide services available on the Website, and (ii) that have agreed not to disclose it to others
 
-## Changes to This Privacy Policy
+Service Providers and partners. Omnivore engages a number of service providers or partners to manage or support certain aspects of our business operations on our behalf. For instance, we currently use the following service providers who will handle your personal information:
 
-I may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. I will notify you of any changes by posting the new Privacy Policy on this page.
+- Google Cloud Platform - cloud data hosting
+- Sentry - application monitoring and error tracking
+- Intercom - customer support tool
+- Posthog - data analytics tool
+- Twilio - email and analytics provider
+- GitHub - open source repositories and internal project management tool
 
-This policy is effective as of 2023-02-01
+Our service providers and partners are required by contract to safeguard any personal information they receive from us and are prohibited from using the personal information for any purpose other than to perform the services as instructed by Omnivore.
+
+Legal Requirements. We may disclose personal information to government authorities or other third-parties if required to do so by law or in the good faith belief that such action is necessary to: (a) comply with a subpoena, court order or similar legal obligation, (b) protect and defend our rights or property, (c) act in urgent circumstances to protect the personal safety of users of any Website or the public, (d) protect against legal liability, (e) to investigate fraud or other unlawful activity, or (f) or as otherwise required or permitted by law.
+
+Omnivore takes measures reasonably necessary to protect your personal information against any unauthorized access, use, alteration, or destruction.
+
+## International transfer of personal information
+
+The Websites are hosted in the United States, and the personal information we collect will be stored and processed on our servers in the United States. Our employees, contractors and affiliated organizations that process information for us as described above may be located in the United States or in other countries outside of your home country which may have different data protection standards to those which apply in your home country.
+
+Where your personal information is transferred outside of the EEA, Switzerland and UK and where this is to a country which is not subject to an adequacy decision by the EU Commission or considered adequate as determined by applicable data protection laws, we will take steps to ensure your personal information is adequately protected by safeguards such as Standard Contractual Clauses (“SCCs”) approved by the EU Commission or by the UK Government. A copy of the relevant mechanism can be obtained for your review on request by using the contact details in the ‘Contacting Omnivore About Your Privacy’ section of this Privacy Policy.
+
+## Omnivore communications with you
+
+If you are a registered user of the Omnivore service and have supplied your email address, Omnivore may occasionally send you an email to tell you aboutn new features, solicit your feedback, or just keep you up to date with what's going on with Omnivore and our products. We primarily use our blog to communicate this type of information, so we expect to keep this type of email to a minimum. There's an unsubscribe link located at the bottom of each of the marketing emails we send you so you can stop receiving such emails at any time.
+
+## Tracking Technologies and Cookies
+
+We use Cookies and similar tracking technologies to track the activity on Our Service and store certain information. Tracking technologies used are beacons, tags, and scripts to collect and track information and to improve and analyze Our Service. The technologies We use may include:
+
+- Cookies or Browser Cookies. A cookie is a small file placed on Your Device. You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being sent. However, if You do not accept Cookies, You may not be able to use some parts of our Service. Unless you have adjusted Your browser setting so that it will refuse Cookies, our Service may use Cookies.
+
+- Cookies can be "Persistent" or "Session" Cookies. Persistent Cookies remain on Your personal computer or mobile device when You go offline, while Session Cookies are deleted as soon as You close Your web browser. Learn more about cookies: What Are Cookies?. We use both Session and Persistent Cookies for the purposes set out below:
+
+- Necessary / Essential Cookies Type: Session Cookies Administered by: Us Purpose: These Cookies are essential to provide You with services available through the Website and to enable You to use some of its features. They help to authenticate users and prevent fraudulent use of user accounts. Without these Cookies, the services that You have asked for cannot be provided, and We only use these Cookies to provide You with those services.
+
+Functionality Cookies Type: Persistent Cookies Administered by: Us Purpose: These Cookies allow us to remember choices You make when You use the Website, such as remembering your login details or language preference. The purpose of these Cookies is to provide You with a more personal experience and to avoid You having to re-enter your preferences every time You use the Website.
+
+### Tracking technologies
+
+We do not use third party tracking services to collect information about you.
+
+### Do Not Track
+
+"Do Not Track" is a privacy preference you can set in your browser if you do not want online services to collect and share certain kinds of information about your online activity from third party tracking services. Omnivore does not track your online browsing activity on other online services over time and we do not permit third-party services to track your activity on our site. Because we do not share this kind of data with third party services or permit this kind of third party data collection for any of our users, and we do not track our users on third-party websites ourselves, we do not need to respond differently to an individual browser's Do Not Track setting.
+
+## Global privacy practices and your rights
+
+Information we collect may be stored and processed in the United States in accordance with this Privacy Policy but we understand that users from other countries may have different expectations and rights with regard to their privacy. For all Website visitors and users, no matter their country of location, we will:
+
+- provide clear methods of unambiguous, informed consent when we do collect your personal information and where required by applicable law;
+- only collect the minimum amount of personal information necessary for the purpose it is collected for, unless you choose to provide us more;
+- offer you simple methods of accessing, correcting, or deleting your information that we have collected, with the exception of information you voluntarily provide that is necessary to retain as is for the integrity of our project code as described further below; and
+  provide Website users notice, choice, accountability, security, and access, and we limit the purpose for processing. We also provide our users a method of recourse and enforcement.
+
+### Additional rights that may apply to you in certain instances:
+
+- Right of data portability (if our processing is based on consent or a contract and the processing carried out by automated means);
+- Right to withdraw consent at any time (if processing is based on consent). If you ask to withdraw your consent, this will not affect any processing which has already taken place at that time.
+- Right to object to processing (if processing is based on legitimate interests)
+- Right to object to processing of personal data for direct marketing purposes
+- Right of erasure of your personal data from our system (“right to be forgotten”) if certain grounds are met
+- These rights may be limited, for example if fulfilling your request would reveal personal information about another person, or if you ask us to delete information which we are required by law or have compelling legitimate interests to keep.
+
+Where we collect personal information to administer your accounts or your contract with us or to comply with our legal obligations, this is mandatory and we will not be able to manage our relationship with you without this. In all other cases, the provision of requested personal information is optional, but this may affect your ability to participate in certain Website-related activities or being able to access and use certain features and services, where the information is needed for those purposes.
+
+To exercise your privacy rights, you can email us at the address given below in the ‘Contacting Omnivore About Your Privacy’ section of this Privacy Policy.
+
+## Data retention and deletion
+
+If you already have an account on the Websites, you may access, update, alter, or delete your basic user profile information by logging into your account and updating profile settings.
+
+Omnivore will retain your information for as long as your account is active or as needed to perform our contractual obligations, provide you services through the Website, to comply with legal obligations, resolve disputes, preserve legal rights, or enforce our agreements. Retention periods will be determined taking into account the type of information that is collected and the purpose for which it is collected, bearing in mind the requirements applicable to the situation and the need to destroy outdated, unused information at the earliest reasonable opportunity. For instance, in respect of data held for the management of customers and potential customers, we consider the lead time necessary to develop and maintain our commercial relationships and how recent our interactions are with you. We may rectify, update or remove incomplete or inaccurate information, at any time and at our own discretion. For more information on our retention periods you can contact us using the details in the “Contacting Omnivore About Your Privacy” section of this Privacy Policy.
 
 ## Contact Us
 
-If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at feedback@omnivore.app
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact me at feedback@omnivore.app
