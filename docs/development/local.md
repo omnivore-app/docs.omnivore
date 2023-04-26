@@ -38,7 +38,7 @@ Open `http://localhost:3000` and confirm Omnivore is running
 
 During database setup docker-compose creates an account `demo@omnivore.app`, password: `demo`.
 
-Go to <http://localhost:3000/> in your browser and choose `Continue with Email` to login.
+Go to <a href="http://localhost:3000/" target="_blank" rel="noreferrer">http://localhost:3000/</a> in your browser and choose `Continue with Email` to login.
 
 ## Frontend Development
 
@@ -80,7 +80,7 @@ yarn start
 
 This will start the puppeteer-parse service on port 9090.
 
-In your browser go to `http://localhost:3000/home`, click the `Add Link` button,
+In your browser go to <a href="http://localhost:3000/home" target="_blank" rel="noreferrer">http://localhost:3000/home</a>, click the `Add Link` button,
 and enter a URL such as `https://blog.omnivore.app/p/getting-started-with-omnivore`.
 
 You should see a Chromium window open and navigate to your link. When the service
