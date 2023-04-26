@@ -10,7 +10,7 @@ Last updated: 2023-04-26
 ::: info TLDR: Omnivore does not sell your data, we store your data on our servers so it can be accessed via the web and synced to devices. We use a limited set of analytics and logging tools to ensure the service is functioning and to debug issues. We use email to contact you, send you marketing messages, and send you in-app messages (but you can always opt out of our emails).
 :::
 
-This document is meant as a brief overview of how Omnivore handles private information. For more details, please review our [Privacy Policy](../misc/privacy-policy.md).
+This document is meant as a brief overview of how Omnivore handles private information. For more details, please review our [Privacy Policy](./privacy-policy.md).
 
 We understand that data privacy is a big concern to many of our users, and that many potential users are cautious of new services (especially free ones). As a free and open-source project run by a small team, sometimes our documentation isn't as thorough as it could be. If you have questions or feedback on anything, please don't assume maliciousness and feel free to contact us.
 
