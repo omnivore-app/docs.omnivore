@@ -124,3 +124,45 @@ date_published: {{{datePublished}}}
 {{/highlights}}
 {{/highlights.length}}
 ```
+
+### Importing the Full Article Content
+
+::: warning Full content import does not work for PDFs
+:::
+
+The content of articles is converted to Markdown before import, this means we need them to avoid HTML
+escaping when being inserted into Obsidian. To do this, use the triple Mustache syntax. So to import the full article content:
+
+```
+{{{ content }}}
+```
+
+For example:
+
+```
+---
+id: {{{id}}}
+title: {{{title}}}
+{{#author}}
+author: {{{author}}}
+{{/author}}
+{{#labels.length}}
+tags:
+{{#labels}} - {{{name}}}
+{{/labels}}
+{{/labels.length}}
+date_saved: {{{dateSaved}}}
+{{#datePublished}}
+date_published: {{{datePublished}}}
+{{/datePublished}}
+---
+
+# {{{title}}}
+#Omnivore
+
+[Read on Omnivore]({{{omnivoreUrl}}})
+[Read Original]({{{originalUrl}}})
+
+{{{ content }}}
+
+```
