@@ -5,40 +5,32 @@ export const themeConfig: DefaultTheme.Config = {
   editLink: {
     pattern:
       "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
-    text: "Edit this page on GitHub",
+    text: "Editar esta página en GitHub",
   },
   sidebar: [
     {
-      text: "About",
+      text: "Usando Omnivore",
       items: [
-        { text: "Community", link: "/about/community" },
-        { text: "Privacy Statement", link: "/about/privacy-statement" },
-        { text: "Pricing", link: "/about/pricing" },
-      ],
-    },
-    {
-      text: "Using Omnivore",
-      items: [
-        { text: "Installation", link: "/es/using/install" },
-        { text: "Saving Links", link: "/es/using/saving" },
-        { text: "Reading", link: "/es/using/reading" },
+        { text: "Instalación", link: "/es/using/install" },
+        { text: "Guardando Enlaces", link: "/es/using/saving" },
+        { text: "Leyendo", link: "/es/using/reading" },
         { text: "Email Inbox", link: "/es/using/inbox" },
-        { text: "Organizing", link: "/es/using/organizing" },
-        { text: "Text to Speech", link: "/es/using/text-to-speech" },
-        { text: "Search", link: "/es/using/search" },
-        { text: "Saved Searches", link: "/es/using/saved-searches" },
-        { text: "Rules", link: "/es/using/rules" },
-        { text: "Importing Data", link: "/es/using/importing" },
-        { text: "Keyboard Commands", link: "/es/using/keyboard" },
+        { text: "Organizando", link: "/es/using/organizing" },
+        { text: "Texto a Voz", link: "/es/using/text-to-speech" },
+        { text: "Buscar", link: "/es/using/search" },
+        { text: "Búsquedas Guardadas", link: "/es/using/saved-searches" },
+        { text: "Reglas", link: "/es/using/rules" },
+        { text: "Importación de Datos", link: "/es/using/importing" },
+        { text: "Comandos de Teclado", link: "/es/using/keyboard" },
         {
-          text: "Managing your Account",
+          text: "Administrando su cuenta",
           link: "/es/using/managing-account",
         },
-        { text: "Getting Help", link: "/es/using/help" },
+        { text: "Obtener Ayuda", link: "/es/using/help" },
       ],
     },
     {
-      text: "Integrating with other Apps",
+      text: "Integración con Otras Aplicaciones",
       items: [
         { text: "Logseq", link: "/es/integrations/logseq" },
         { text: "Obsidian", link: "/es/integrations/obsidian" },
@@ -56,21 +48,20 @@ export const themeConfig: DefaultTheme.Config = {
     //   ]
     // },
     {
-      text: "Development",
+      text: "Desarrollo",
       items: [
-        { text: "Contributing", link: "/es/development/contributing" },
-        { text: "Local Environment", link: "/es/development/local" },
+        { text: "Contribuyendo", link: "/es/development/contributing" },
+        { text: "Entorno Local", link: "/es/development/local" },
       ],
     },
     {
-      text: "Self-hosting",
-      items: [{ text: "Self-hosting", link: "/es/self-hosting/self-hosting" }],
+      text: "Autohospedaje",
+      items: [{ text: "Autohospedaje", link: "/es/self-hosting/self-hosting" }],
     },
   ],
 };
-export const title = "Omnivore Docs";
-export const description = "Documentation for the Omnivore reading service.";
-
+export const title = "Documentación de Omnivore";
+export const description = "Documentación del servicio de lectura Omnivore.";
 export const es: LocaleConfig<DefaultTheme.Config>[string] = {
   label: "Español",
   lang: "es",
