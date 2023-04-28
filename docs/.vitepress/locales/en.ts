@@ -9,6 +9,14 @@ export const themeConfig: DefaultTheme.Config = {
   },
   sidebar: [
     {
+      text: "About",
+      items: [
+        { text: "Community", link: "/about/community" },
+        { text: "Privacy Statement", link: "/about/privacy-statement" },
+        { text: "Pricing", link: "/about/pricing" },
+      ],
+    },
+    {
       text: "Using Omnivore",
       items: [
         { text: "Installation", link: "/using/install" },

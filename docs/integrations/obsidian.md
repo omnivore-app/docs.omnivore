@@ -18,10 +18,11 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 ## Installation
 
-1. Install the plugin from the commnunity or build it from source and load unpacked plugin
-2. Sign up for an [Omnivore account](https://omnivore.app)
-3. Go to [Omnivore](https://omnivore.app/settings/api) and create an API key
-4. Open settings and add your api key
+1. Install and enable the plugin from the Community Plugins section of Obsidian or [build it from source](https://github.com/omnivore-app/obsidian-omnivore) and load the unpacked plugin.
+2. Sign up for an [Omnivore account](https://omnivore.app).
+3. Go to [Omnivore](https://omnivore.app/settings/api) and create an API key.
+4. Open the Omnivore plugin settings in Obsidian and add your API key.
+5. Run Omnivore sync by opening the command palette (Ctrl + P or CMD + P). Type Omnivore and select the option **Omnivore: Sync**.
 
 ## Customizing which data is synced from Omnivore to Obsidian
 
@@ -29,9 +30,9 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 The Omnivore Obsidian plugin offers three options for which data is imported:
 
-* import all my articles: This will import every article you save to Omnivore and the labels (tags), highlights, and notes you have added to the article.
-* import just highlights: This will import every article you have saved that has highlights
-* advanced: This allows you to define a search filter to import. For example, import just Newsletters by using `label:Newsletter`.
+* Import all my articles: This will import every article you save to Omnivore and the labels (tags), highlights, and notes you have added to the article.
+* Import just highlights: This will import every article you have saved that has highlights
+* Advanced: This allows you to define a search filter to import. For example, import just Newsletters by using `label:Newsletter`.
 
 ## Controlling the layout of the data imported to Obsidian
 
@@ -122,4 +123,46 @@ date_published: {{{datePublished}}}
 
 {{/highlights}}
 {{/highlights.length}}
+```
+
+### Importing the Full Article Content
+
+::: warning Full content import does not work for PDFs
+:::
+
+The content of articles is converted to Markdown before import, this means we need them to avoid HTML
+escaping when being inserted into Obsidian. To do this, use the triple Mustache syntax. So to import the full article content:
+
+```
+{{{ content }}}
+```
+
+For example:
+
+```
+---
+id: {{{id}}}
+title: {{{title}}}
+{{#author}}
+author: {{{author}}}
+{{/author}}
+{{#labels.length}}
+tags:
+{{#labels}} - {{{name}}}
+{{/labels}}
+{{/labels.length}}
+date_saved: {{{dateSaved}}}
+{{#datePublished}}
+date_published: {{{datePublished}}}
+{{/datePublished}}
+---
+
+# {{{title}}}
+#Omnivore
+
+[Read on Omnivore]({{{omnivoreUrl}}})
+[Read Original]({{{originalUrl}}})
+
+{{{ content }}}
+
 ```

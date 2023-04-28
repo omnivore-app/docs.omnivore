@@ -16,7 +16,7 @@ Omninove se integra con Logseq por medio del plugin [logseq-omnivore](https://gi
 ## Configurando plugin Omnivore Logseq
 
 - Busque Logseq Marketplace para Omnivore e instale el plugin
-- En su navegador abra [https://omnivore.app/settings/api](https://omnivore.app/settings/api) y cree un token API (ver [API](./api.md) para más información sobre cómo crear un token)
+- En su navegador abra [https://omnivore.app/settings/api](https://omnivore.app/settings/api) y cree un token API (ver [API](../../integrations/api.md) para más información sobre cómo crear un token)
 - En Logseq abra la Configuración del Plugin Omnivore y pegue su clave API
 
 ## Personalizar qué datos se sincronizan desde Omnivore hacia Logseq

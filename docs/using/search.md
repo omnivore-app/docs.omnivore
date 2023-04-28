@@ -11,7 +11,7 @@ Omnivore uses search to filter items in your library. You can use a simple keywo
 
 ## Searching for text
 
-Omnivore will perform full text search across library item's content, title, description, and site by default. You can search for specific terms by quoting your terms. By default all results that match your search will be returned in the order they were saved. To change your search to relevance use the sort:score parameter.
+Omnivore will perform full text search across library item's content, title, description, and site by default. You can search for specific terms by quoting your terms (i.e. wrapping them in quotes). By default all results that match your search will be returned in the order they were saved. To change your search to relevance use the `sort:score` parameter.
 
 ## Filtering by label
 
@@ -19,17 +19,19 @@ You can filter your search based on labels using AND and OR clauses. You can als
 
 Some examples:
 
-- `label:Newsletter` finds all pages that have the label Newsletter
-- `label:Cooking,Fitness` finds all your pages with either the Cooking or Fitness labels
-- `label:Newsletter label:Surfing` finds all pages with both the Newsletter and Surfing labels
-- `label:Coding -label:News` finds all pages with the Coding label that do not have the News label
+- `label:Newsletter` Finds all pages that have the label Newsletter
+- `label:Cooking,Fitness` Finds all pages with either the Cooking or Fitness labels
+- `label:Newsletter label:Surfing` Finds all pages with both the Newsletter and Surfing labels
+- `label:Coding -label:News` Finds all pages with the Coding label that do not have the News label
 
 ## Filtering by archive status
 
-The `in:` filter is used to filter search by archive status. The options are:
+The `in:` filter is used to filter search by archive status. 
 
-- `in:inbox` (the default): show unarchived items
-- `in:archive:` show archived items
+The options are:
+
+- `in:inbox` (the default selected option) Show unarchived items
+- `in:archive:` Show archived items
 - `in:all:` Show all items regardless of archive state
 
 ## Filtering by read state
@@ -39,7 +41,7 @@ The `is:` filter is used to filter search by read state. Note that in Omnivore '
 The `is:` filter options are:
 
 - `is:read`: Show only items that are fully read
-- `is:unread`: (the default): show unread items
+- `is:unread`: (the default selected option) Show unread items
 
 ## Filtering by type
 
@@ -52,7 +54,7 @@ The `type:` filter is used to filter search by type.
 
 ## Finding highlights
 
-You can find your highlights by using the `type:highlights` filter or find saved items with highlights using the has:highlights filter.
+You can find your highlights by using the `type:highlights` filter or find saved items with highlights using the `has:highlights` filter.
 
 ## Filtering by save/publish dates
 
@@ -69,5 +71,5 @@ For Example:
 By default all search results in Omnivore are sorted by saved date. This puts the most recently saved items at the top of your library. You can use sort options to change the library order:
 
 - `sort:saved`: Sort by saved date
-- `sort:updated`: Sort by time the item was updated, for example having a label or highlight added.
-- `sort:score`: Sort by query term relevance.
+- `sort:updated`: Sort by time the item was updated, for example having a label or highlight added
+- `sort:score`: Sort by query term relevance

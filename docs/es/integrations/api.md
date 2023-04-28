@@ -17,7 +17,7 @@ Omnivore ofrece una API de graphql que se puede autenticar con un token de API.
 - Elija un tiempo de caducidad. Cuando una clave API caduca, deja de funcionar.
 - Copie la clave API a su portapapeles.
 
-![Creación de un token de API](./images/web-create-api-token.png)
+![Creación de un token de API](../../integrations/images/web-create-api-token.png)
 
 ::: Consejo: Una vez que se crea su clave API, no podrá volver a acceder a su valor.
 :::
