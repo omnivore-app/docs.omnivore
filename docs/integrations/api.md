@@ -42,6 +42,18 @@ Reference documentation is not created for the GraphQL API, but the schema can b
 - `saveUrl`: Save a URL
 - `savePage`: Save a page with supplied HTML content
 
+### Saving a URL with the API
+
+To save a URL you can use the `saveUrl` GQL endpoint, note that there are three required parameters:
+
+- url: The url you would like to save for example `https://blog.omnivore.app/p/contributing-to-omnivore`
+- clientRequestId: A unique id for this request. This can be generated using a uuid library, and is used to look up requests on subsequent API calls. For example: `85282635-4DF4-4BFC-A3D4-B3A004E57067`
+- source: Set this to `api`, this helps us differentiate the way a URL is being saved.
+
+```
+curl -X POST -d '{ "query": "mutation SaveUrl($input: SaveUrlInput!) { saveUrl(input: $input) { ... on SaveSuccess { url clientRequestId } ... on SaveError { errorCodes message } } }", "variables": { "input": { "clientRequestId": "85282635-4DF4-4BFC-A3D4-B3A004E57067", "source": "api", "url": "https://blog.omnivore.app/p/contributing-to-omnivore" }} }' -H 'content-type: application/json' -H 'authorization: <your api key>' https://api-prod.omnivore.app/api/graphql
+```
+
 ## Sample Apps:
 
 - [omnivore-import](https://github.com/davidohlin/instapaper-to-omnivore-import): A typescript tool for importing a library previously exported from Instapaper (written in TypeScript)
