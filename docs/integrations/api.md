@@ -24,6 +24,13 @@ Omnivore's frontend also exposes a frontend endpoint at https://omnivore.app/api
 ::: tip Once your API key is created you will not be able to access it's value again.
 :::
 
+Your API key should be added to requests in the `Authorization` header. Here is a sample GQL request using an API token with the value `FFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF`:
+
+```
+curl -X POST -d '{ "query": "query Viewer { me { id name } }" }' -H 'content-type: application/json' -H 'authorization: FFFFFF-FFFF-FFFF-FFFF-FFFFFFFFFFFF' https://api-prod.omnivore.app/api/graphql
+{"data":{"me":{"id":"<your user id>","name":"<your full name>"}}}
+```
+
 ## The GraphQL API
 
 Reference documentation is not created for the GraphQL API, but the schema can be accessed [on GitHub](https://github.com/omnivore-app/omnivore/blob/main/packages/api/src/schema.ts).
