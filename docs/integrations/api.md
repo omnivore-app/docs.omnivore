@@ -7,7 +7,9 @@ editLink: true
 
 [[toc]]
 
-Omnivore exposes a graphql API that can be authenticated with an API token.
+Omnivore exposes a graphql API that can be authenticated with an API token, this is usually used when connecting to Omnivore from your desktop, mobile app, or local computer.
+
+Omnivore's frontend also exposes a frontend endpoint at https://omnivore.app/api/save for saving to your library in the browser. This endpoint will use your browser cookie to authenticate. This is normally used for integrating with other readers, like [Inoreader](https://www.inoreader.com/).
 
 ## Getting an API token
 
@@ -37,3 +39,9 @@ Reference documentation is not created for the GraphQL API, but the schema can b
 
 - [omnivore-import](https://github.com/davidohlin/instapaper-to-omnivore-import): A typescript tool for importing a library previously exported from Instapaper (written in TypeScript)
 - [omnivore-api-demo-csharp](https://github.com/laurentkempe/omnivore-api-demo-csharp): Download all your articles and save in Markdown format (written in C#)
+
+## Saving requests from the browser
+
+Requests can be made to the frontend endpoint https://omnivore.app/api/save in the browser.
+
+When using this endpoint your browser cookie will be used to authenticate and authorize the request. Labels can be added using the `labels` query param: `https://omnivore.app/api/save?url=<the url>&labels=<Label1>&labels=<Label2>&labels=<Label3>` for example: https://omnivore.app/api/save?url=https://blog.omnivore.app/p/whats-new-in-omnivore&labels=Reading1&labels=Software
