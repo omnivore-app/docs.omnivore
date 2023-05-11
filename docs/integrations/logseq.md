@@ -72,6 +72,9 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - dateRead: The date the article was read in your perferrred date format with double brackets around it, for example `[[2021-01-01]]`
 - rawDatePublished: The date the article was published in your perferrred date format
 - rawDateRead: The date the article was read in your perferrred date format
+- state: The state of the article, for example `READING` or `COMPLETED`
+- wordsCount: The number of words in the article
+- readLength: The length of time it took to read the article
 
 Default article template:
 
@@ -99,16 +102,31 @@ date-published:: {{{datePublished}}}
 - highlightUrl: The URL of the highlight in Omnivore
 - dateHighlighted: The date the highlight was created in your perferrred date format with double brackets around it, for example `[[2021-01-01]]`
 - rawDateHighlighted: The date the highlight was created in your perferrred date format
+- note: The note attached to the highlight
 
 Default highlight template:
 
 ```
 > {{{text}}} [⤴️]({{{highlightUrl}}}) {{#labels}} #[[{{{name}}}]] {{/labels}}
+
+{{#note.length}}note:: {{{note}}} {{/note.length}}
 ```
 
-### Highlight annotation
+### Function map for both article and highlight templates
 
-The annotation of a highlight will be added as a sub-block to the highlight block.
+- lowerCase: Converts a string to lowercase
+- upperCase: Converts a string to uppercase
+- upperCaseFirst: Converts the first character of a string to uppercase
+
+Example of using a function in a template to convert the state of an article to lowerCase:
+
+```
+state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
+```
+
+## Sync articles into a specific Logseq page
+
+By default, Omnivore will sync articles into a Logseq page called `Omnivore`. You can change this by unchecking `isSinglePage` and changing the `pageName` to `{{{title}}}` or `{{{date}}}` in your settings. For example, if you want to sync articles into the journal, you would use `{{{date}}}` as the `pageName`.
 
 ## Community Guides
 
