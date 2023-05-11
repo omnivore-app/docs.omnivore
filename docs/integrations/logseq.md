@@ -74,7 +74,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - rawDateRead: The date the article was read in your perferrred date format
 - state: The state of the article, for example `READING` or `COMPLETED`
 - wordsCount: The number of words in the article
-- readLength: The length of time it took to read the article
+- readLength: The length of time it took to read the article in minutes
 
 Default article template:
 
