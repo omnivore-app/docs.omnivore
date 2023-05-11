@@ -126,7 +126,11 @@ state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
 
 ## Sync articles into a specific Logseq page
 
+::: v-pre
+
 By default, Omnivore will sync articles into a Logseq page called `Omnivore`. You can change this by unchecking `isSinglePage` and changing the `pageName` to `{{{title}}}` or `{{{date}}}` in your settings. For example, if you want to sync articles into the journal, you would use `{{{date}}}` as the `pageName`.
+
+:::
 
 ## Community Guides
 

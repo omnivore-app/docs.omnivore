@@ -19,7 +19,7 @@ La interfaz de Omnivore también expone un "punto final" (endpoint) de interfaz 
 - Elige un tiempo de caducidad. Cuando una clave API caduca, dejará de funcionar.
 - Copia la clave API a tu portapapeles.
 
-![Creación de un token de API](./images/web-create-api-token.png)
+![Creación de un token de API](../../../docs/integrations/images/web-create-api-token.png)
 
 ::: tip Consejo: Una vez hayas creado tu clave API, no podrás volver a acceder a su valor.
 :::
