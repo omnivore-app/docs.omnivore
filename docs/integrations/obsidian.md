@@ -76,7 +76,11 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 * type: The type of page, for example `ARTICLE` or `FILE`
 * datePublished: The date the article was published in your perferrred date format
 * dateRead: The date the article was read in your perferrred date format
+* dateArchived: The date the article was archived in your perferrred date format
 * fileAttachment: The file attachment attached to the article
+* state: The state of the article, for example `READING` or `COMPLETED`
+* wordsCount: The number of words in the article
+* readLength: The length of time it took to read the article in minutes
 * highlights: A list of highlights attached to the article
   * text: The text of the highlight
   * highlightUrl: The URL of the highlight in Omnivore
@@ -131,7 +135,9 @@ date_published: {{{datePublished}}}
 :::
 
 The content of articles is converted to Markdown before import, this means we need them to avoid HTML
-escaping when being inserted into Obsidian. To do this, use the triple Mustache syntax. So to import the full article content:
+escaping when being inserted into Obsidian. To do this, use the triple Mustache syntax.
+Any highlights that you have created in Omnivore will be rendered as Markdown highlights.
+So to import the full article content:
 
 ```
 {{{ content }}}
@@ -166,3 +172,23 @@ date_published: {{{datePublished}}}
 {{{ content }}}
 
 ```
+
+### Function map in the template
+
+* lowerCase: Converts a string to lowercase
+* upperCase: Converts a string to uppercase
+* upperCaseFirst: Converts the first character of a string to uppercase
+
+Example of using a function in a template to convert the state of an article to lowerCase:
+
+```
+state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
+```
+
+## Sync all the articles into a single note
+
+By default, Omnivore will sync articles into separate pages in Obsidian. If you would like to sync all your articles into a single note, you can turn on the option **Is Single File** and use a fixed **Filename** in the plugin settings.
+
+## Scheduled Sync
+
+By default, Omnivore does not automatically sync your data. You can enable scheduled sync by entering a number of minutes in the **Frequency** setting. For example, if you enter `60`, Omnivore will sync your data every hour and you can always turn it off by entering `0`.
