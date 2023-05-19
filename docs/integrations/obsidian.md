@@ -148,9 +148,11 @@ For example:
 ```
 ---
 id: {{{id}}}
-title: {{{title}}}
+title: >
+  {{{title}}}
 {{#author}}
-author: {{{author}}}
+author: >
+  {{{author}}}
 {{/author}}
 {{#labels.length}}
 tags:

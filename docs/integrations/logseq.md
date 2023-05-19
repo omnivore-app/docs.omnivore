@@ -75,6 +75,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - state: The state of the article, for example `READING` or `COMPLETED`
 - wordsCount: The number of words in the article
 - readLength: The length of time it took to read the article in minutes
+- dateArchived: The date the article was archived in your perferrred date format
 
 Default article template:
 
@@ -124,6 +125,20 @@ Example of using a function in a template to convert the state of an article to 
 state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
 ```
 
+### Importing the Full Article Content
+
+::: warning Full content import does not work for PDFs
+:::
+
+The content of articles is converted to Markdown before import, this means we need them to avoid HTML
+escaping when being inserted into Logseq. To do this, use the triple Mustache syntax.
+Any highlights that you have created in Omnivore will be rendered as Markdown highlights.
+So to import the full article content:
+
+```
+{{{ content }}}
+```
+
 ## Sync articles into a specific Logseq page
 
 ::: v-pre
@@ -131,6 +146,10 @@ state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
 By default, Omnivore will sync articles into a Logseq page called `Omnivore`. You can change this by unchecking `isSinglePage` and changing the `pageName` to `{{{title}}}` or `{{{date}}}` in your settings. For example, if you want to sync articles into the journal, you would use `{{{date}}}` as the `pageName`.
 
 :::
+
+## Scheduled Sync
+
+By default, Omnivore does not automatically sync your data. You can enable scheduled sync by entering a number of minutes in the **Frequency** setting. For example, if you enter `60`, Omnivore will sync your data every hour and you can always turn it off by entering `0`.
 
 ## Community Guides
 
