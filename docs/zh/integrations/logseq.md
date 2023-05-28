@@ -31,7 +31,7 @@ Omnivore Logseq 插件提供了三个导入数据的选项：
 
 ## 控制导入到 Logseq 的数据的布局
 
-Omnivore Logseq 插件使用 [mustache](https://mustache.github.io/) 模板语言来定义如何将导入的数据保存到 Logseq。插件设置允许您定义页面布局和荧光笔高亮显示布局的模板。
+Omnivore Logseq 插件使用 [mustache](https://mustache.github.io/) 模板语言来定义如何将导入的数据保存到 Logseq。插件设置允许您定义文章布局和荧光笔高亮显示布局的模板。
 
 ### Mustache 模板语言
 
