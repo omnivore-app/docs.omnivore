@@ -26,7 +26,7 @@ Omninove 通过 [logseq-omnivore](https://github.com/omnivore-app/logseq-omnivor
 Omnivore Logseq 插件提供了三个导入数据的选项：
 
 - import all my articles <sup>（导入我的所有文章）</sup>：这将导入您保存到 Omnivore 的每篇文章以及您添加到文章中的标签 (tags)，荧光笔高亮显示和注释。
-- import just highlights <sup>（仅导入荧光笔高亮显示）</sup>：这将导入您保存的具有荧光笔高亮显示的每篇文章。
+- import just highlights <sup>（仅导入荧光笔高亮显示）</sup>：这将导入您保存的具有荧光笔高亮显示的文章。
 - advanced <sup>（高级）</sup>：这允许您定义要导入的搜索筛选。例如，仅导入新闻稿使用 `label:Newsletter` 。
 
 ## 控制导入到 Logseq 的数据的布局
@@ -35,23 +35,23 @@ Omnivore Logseq 插件使用 [mustache](https://mustache.github.io/) 模板语�
 
 ### Mustache 模板语言
 
-Mustache 是一种简单且无逻辑的模板语言，可让您创建易于阅读和维护的模板。Mustache 模板由标记组成，这些标记是占位符，在呈现模板时将替换为实际值。
+Mustache 是一种简单且无逻辑的模板语言，可让您创建易于阅读和维护的模板。Mustache 模板由标记组成，这些标记是占位符，在渲染模板时将替换为实际值。
 
 Mustache 标签有几种类型，包括：
 
 ::: v-pre
 
--   `{{ variable }}`: 呈现变量的值。
--   `{{# section }}` ... `{{/ section }}`: 如果部分的值为 true ，则呈现模板的一部分，例如数组或对象。
--   `{{^ inverted section }}` ... `{{/ inverted section }}`: 如果部分的值为 false，则呈现模板的一部分。
--   `{{! comment }}`: 向模板添加注释，呈现模板时将忽略该注释。
+-   `{{ variable }}`: 渲染变量的值。
+-   `{{# section }}` ... `{{/ section }}`: 如果部分的值为 true ，则渲染模板的一部分，例如数组或对象。
+-   `{{^ inverted section }}` ... `{{/ inverted section }}`: 如果部分的值为 false，则渲染模板的一部分。
+-   `{{! comment }}`: 向模板添加注释，渲染模板时将忽略该注释。
 
 除了基本的 Mustache 标签外，您还可以在模板中使用几个内置的 Mustache 函数，例如：
 
--   `{{# list }}` ... `{{/ list }}`: 为列表中的每篇文章呈现模板的一部分。
--   `{{^ emptyList }}` ... `{{/ emptyList }}`: 如果列表不为空，则呈现模板的一部分。
--   `{{& variable }}` or `{{{ variable }}}`: 呈现变量的值而不转义 HTML 字符。
--   `{{> partial }}`: 呈现分部模板，该模板是可包含在其他模板中的可重用模板。
+-   `{{# list }}` ... `{{/ list }}`: 为列表中的每篇文章渲染模板的一部分。
+-   `{{^ emptyList }}` ... `{{/ emptyList }}`: 如果列表不为空，则渲染模板的一部分。
+-   `{{& variable }}` or `{{{ variable }}}`: 渲染变量的值而不转义 HTML 字符。
+-   `{{> partial }}`: 渲染分部模板，该模板是可包含在其他模板中的可重用模板。
     :::
 
 ### 可用于文章模板的变量
@@ -132,7 +132,7 @@ state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
 :::
 
 文章的内容在导入前被转换为 Markdown ，这意味着我们需要它们在插入 Logseq 时避免 HTML 转义。要做到这一点，请使用三段式的 Mustache 语法。
-你在 Omnivore 中创建的任何荧光笔高亮显示将被呈现为 Markdown 语法的高亮显示。
+你在 Omnivore 中创建的任何荧光笔高亮显示将被渲染为 Markdown 语法的高亮显示。
 所以要导入完整的文章内容：
 
 ```
