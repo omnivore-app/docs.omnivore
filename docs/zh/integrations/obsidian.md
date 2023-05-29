@@ -85,7 +85,7 @@ Mustache 标签有几种类型，包括：
   * text：荧光笔高亮显示的文本。
   * highlightUrl：在 Omnivore 中高亮显示的网址。
   * labels：附在高亮部分的标签列表。
-    * name：标签的名称，例如 `Newsletter`
+    * name：标签的名称，例如 `Newsletter` 。
   * note：荧光笔高亮显示所附带的注释。
   * dateHighlighted：荧光笔高亮显示创建的日期，以你喜欢的日期格式表示。
 
@@ -94,9 +94,11 @@ Mustache 标签有几种类型，包括：
 ```
 ---
 id: {{{id}}}
-title: {{{title}}}
+title: >
+  {{{title}}}
 {{#author}}
-author: {{{author}}}
+author: >
+  {{{author}}}
 {{/author}}
 {{#labels.length}}
 tags:
