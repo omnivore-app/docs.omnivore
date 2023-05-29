@@ -41,7 +41,7 @@ export const themeConfig: DefaultTheme.Config = {
       text: "与其他应用程序集成",
       items: [
         { text: "Logseq", link: "/zh/integrations/logseq" },
-        //     //         { text: 'Obsidian', link: '/integrations/obsidian-cn' },
+        { text: 'Obsidian', link: '/zh/integrations/obsidian' },
         { text: "API", link: "/zh/integrations/api" },
         { text: "Webhooks", link: "/zh/integrations/webhooks" },
       ],
