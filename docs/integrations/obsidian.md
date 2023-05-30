@@ -92,23 +92,6 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 Default template:
 
 ```
----
-id: {{{id}}}
-title: {{{title}}}
-{{#author}}
-author: {{{author}}}
-{{/author}}
-{{#labels.length}}
-tags:
-{{#labels}} - {{{name}}}
-{{/labels}}
-{{/labels.length}}
-date_saved: {{{dateSaved}}}
-{{#datePublished}}
-date_published: {{{datePublished}}}
-{{/datePublished}}
----
-
 # {{{title}}}
 #Omnivore
 
@@ -185,6 +168,60 @@ Example of using a function in a template to convert the state of an article to 
 
 ```
 state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
+```
+
+### Front Matter Variables
+
+The front matter variables are used to generate the front matter of the file. They are separated by comma and you can also use custom aliases in the format of `variable::alias`. For example, `date_saved::date` will generate `date: 2023-05-30` in the front matter.
+
+The available variables are in snake case:
+
+* title
+* author
+* tags
+* date_saved
+* date_published
+* omnivore_url
+* site_name
+* original_url
+* description
+* note
+* type
+* date_read
+* words_count
+* read_length
+* state
+* date_archived
+
+The default variables are `title, author, tags, date_saved, date_published`.
+
+Please note that `id` will always be included in the front matter for the purpose of deduplication.
+
+### Front Matter Template
+
+The front matter template is used to generate the front matter of the file. It will only be used when it is set. If it is not set, the front matter will be generated automatically based on the variables defined in "Front Matter Variables".
+
+The available variables are the same as the variables in the template.
+
+A sample front matter template:
+
+```
+id: {{{id}}}
+title: >
+  {{{title}}}
+{{#author}}
+author: >
+  {{{author}}}
+{{/author}}
+{{#labels.length}}
+tags:
+{{#labels}} - {{{name}}}
+{{/labels}}
+{{/labels.length}}
+date_saved: {{{dateSaved}}}
+{{#datePublished}}
+date_published: {{{datePublished}}}
+{{/datePublished}}
 ```
 
 ## Sync all the articles into a single note
