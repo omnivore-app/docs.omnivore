@@ -59,7 +59,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 * `{{> partial }}`: Renders a partial template, which is a reusable template that can be included in other templates.
 :::
 
-### Variables available in the template
+### Variables available in the article template {#variables-available-in-the-template}
 
 * id: The id of the article. This will be used as the id of the file in frontmatter
 * title: The title of the article
@@ -92,23 +92,6 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 Default template:
 
 ```
----
-id: {{{id}}}
-title: {{{title}}}
-{{#author}}
-author: {{{author}}}
-{{/author}}
-{{#labels.length}}
-tags:
-{{#labels}} - {{{name}}}
-{{/labels}}
-{{/labels.length}}
-date_saved: {{{dateSaved}}}
-{{#datePublished}}
-date_published: {{{datePublished}}}
-{{/datePublished}}
----
-
 # {{{title}}}
 #Omnivore
 
@@ -175,7 +158,7 @@ date_published: {{{datePublished}}}
 
 ```
 
-### Function map in the template
+### Function map in the article template
 
 * lowerCase: Converts a string to lowercase
 * upperCase: Converts a string to uppercase
@@ -185,6 +168,60 @@ Example of using a function in a template to convert the state of an article to 
 
 ```
 state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
+```
+
+### Front Matter
+
+[While most of the text in a note is meant to be read by a human, metadata is text that's meant to be easily readable by a program, for example a community plugin or Obsidian itself.](https://help.obsidian.md/Editing+and+formatting/Metadata) The front matter includes the metadata at the top of the note in YAML format. You can enter the metadata separated by comma and you can also use custom aliases in the format of `metadata::alias`. For example, `date_saved::date` will generate `date: 2023-05-30` in the front matter.
+
+The available metadata are in snake case:
+
+* title
+* author
+* tags
+* date_saved
+* date_published
+* omnivore_url
+* site_name
+* original_url
+* description
+* note
+* type
+* date_read
+* words_count
+* read_length
+* state
+* date_archived
+
+The default metadata are `title, author, tags, date_saved, date_published`.
+
+Please note that `id` will always be included in the front matter for the purpose of deduplication.
+
+### Front Matter Template
+
+The front matter template is used to override the front matter of the file. It will only be used when it is set. If it is not set, the front matter will be generated automatically based on the metadata defined in "Front Matter" section under basic settings.
+
+The available variables are the same as the [variables in the article template](#variables-available-in-the-template).
+
+A sample front matter template:
+
+```
+id: {{{id}}}
+title: >
+  {{{title}}}
+{{#author}}
+author: >
+  {{{author}}}
+{{/author}}
+{{#labels.length}}
+tags:
+{{#labels}} - {{{name}}}
+{{/labels}}
+{{/labels.length}}
+date_saved: {{{dateSaved}}}
+{{#datePublished}}
+date_published: {{{datePublished}}}
+{{/datePublished}}
 ```
 
 ## Sync all the articles into a single note
