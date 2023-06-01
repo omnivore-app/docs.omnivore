@@ -7,6 +7,10 @@ export const themeConfig: DefaultTheme.Config = {
       "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
     text: "Edit this page on GitHub",
   },
+  
+  darkModeSwitchLabel: 'Theme',
+  sidebarMenuLabel: 'Content',
+  
   sidebar: [
     {
       text: "About",
