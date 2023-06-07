@@ -88,6 +88,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
     * name: The name of the label, for example `Newsletter`
   * note: The note attached to the highlight
   * dateHighlighted: The date the highlight was created in your perferrred date format
+  * highlightID: The uuid of the highlight
 
 Default template:
 
