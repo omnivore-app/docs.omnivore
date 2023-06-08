@@ -7,7 +7,7 @@ editLink: true
 
 Omnivore 允许从其他数据源导入数据。 使用导入 API 时，每天只能导入三次。
 
-导入的最大文件大小为 10MB。如果您的进口超过此尺寸，请发送电子邮件至 [feedback@omnivore.app](mailto:feedback@omnivore.app) 寻求帮助。
+导入的最大文件大小为 10MB。如果您的导入文件超过此大小，请发送电子邮件至 [feedback@omnivore.app](mailto:feedback@omnivore.app) 寻求帮助。
 
 [[toc]]
 
