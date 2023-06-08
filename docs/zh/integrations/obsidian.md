@@ -250,7 +250,7 @@ date_published: {{{datePublished}}}
 
 ## 另一种安装 obsidian-omnivore 插件方法
 
-1. 从 [obsidian-omnivore 插件发布页面](https://github.com/omnivore-app/obsidian-omnivore/releases/tag/1.0.0)下载 `main.js`, `manifest.json`, 和 `styles.css` 。
+1. 从 [obsidian-omnivore 插件发布页面](https://github.com/omnivore-app/obsidian-omnivore/releases)下载 `main.js`, `manifest.json`, 和 `styles.css` 。
 
 2. 找到您的 Obsidian Vault 目录 (您可以使用 File -> Open Vault 来查找 vault 的路径)。
 
