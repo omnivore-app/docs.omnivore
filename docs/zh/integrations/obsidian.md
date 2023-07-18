@@ -221,6 +221,7 @@ front matter模板是用来覆盖文件中的front matter的。它仅在被设�
 
 Front Matter模板示例：
 
+```
 id: {{{id}}}
 title: >
   {{{title}}}
@@ -237,6 +238,7 @@ date_saved: {{{dateSaved}}}
 {{#datePublished}}
 date_published: {{{datePublished}}}
 {{/datePublished}}
+```
 
 ## 将所有文章同步到一个笔记中
 
