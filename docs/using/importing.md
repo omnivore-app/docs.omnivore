@@ -29,6 +29,20 @@ The importer will ingest the URLs listed in the `_matter_history.csv` file. If t
 ::: tip Currently the importer does not support importing highlights and notes from Matter.
 :::
 
+## Importing CSV files
+
+Omnivore can import a list of URLs supplied as a CSV file. The file should be formated as with three columns and no CSV header, the columns are:
+
+- 0: URL (full url of the item to be imported)
+- 1: status: Either ARCHIVED or SUCCEEDED (set to ARCHIVED to have your item archived on import)
+- 2: labels: In the format `[Label1, Label2, Label3]`, note the square brackets (`[`,`]`) around the list of labels. If the item has no labels this column can be empty. Labels can also also be separated with quotes, but due to CSV quote escaping they will need to be doubled, for example: `"[""label1"",""label2""]"`
+
+Example Row:
+
+```
+https://jacksonh.org,SUCCEEDED,[Handsome Developers, Profile Page]
+```
+
 ## Importing using the API
 
 When importing data using the API, if you have a large number of URLs to import, it is best to use the `uploadImportFile` vs the `savePage` APIs.
