@@ -1,5 +1,5 @@
 ---
-title: Getting Help
+title: 도움 요청하기
 editLink: true
 ---
 
