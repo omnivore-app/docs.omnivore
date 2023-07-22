@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-Omnivore 계정과 저장소 관리를 위해 추가 도구가 제공됩니다.
+Omnivore 계정과 저장소 관리를 위한 추가 도구가 제공되고 있습니다.
 
 [[toc]]
 
