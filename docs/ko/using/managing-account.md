@@ -1,18 +1,18 @@
 ---
-title: Managing your Account and Library
+title: 계정과 저장소 관리하기
 editLink: true
 ---
 
 # {{ $frontmatter.title }}
 
-Omnivore offers some extra tools to manager your account and library.
+Omnivore 계정과 저장소 관리를 위해 추가 도구가 제공됩니다.
 
 [[toc]]
 
-## Deleting your account
+## 계정 삭제
 
-If you'd like to delete your account you can use the [Delete Account Tool](https://omnivore.app/settings/delete-my-account).
+계정을 삭제하기 위해서는 [계정 삭제 도구](https://omnivore.app/settings/delete-my-account)를 이용해 주세요.
 
-## Archiving all items in your library
+## 저장소 전체 보관
 
-If you would like to archive all the items in your library you can use the [Bulk Tool](https://omnivore.app/tools/bulk).
+저장소에 있는 모든 문서를 일괄적으로 보관함에 옮기려면 [일괄 수정 도구](https://omnivore.app/tools/bulk)를 이용해 주세요.
