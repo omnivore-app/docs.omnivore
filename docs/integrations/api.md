@@ -58,6 +58,8 @@ curl -X POST -d '{ "query": "mutation SaveUrl($input: SaveUrlInput!) { saveUrl(i
 
 - [omnivore-import](https://github.com/davidohlin/instapaper-to-omnivore-import): A typescript tool for importing a library previously exported from Instapaper (written in TypeScript)
 - [omnivore-api-demo-csharp](https://github.com/laurentkempe/omnivore-api-demo-csharp): Download all your articles and save in Markdown format (written in C#)
+- [OmnivoreQL](https://github.com/yazdipour/OmnivoreQL): GraphQL omnivore client for Python (written in Python)
+- [OmnivoreX](https://github.com/yazdipour/OmnivoreX): Text User Interface Omnivore Client to read articles in command line in Markdown format (written in Python)
 
 ## Saving requests from the browser
 
