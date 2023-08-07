@@ -1,31 +1,31 @@
 ---
-title: Organizing with Labels
+title: 레이블을 이용하여 문서 정리하기
 editLink: true
 ---
 
 # {{ $frontmatter.title }}
 
-By default, the Library inbox displays all links you have saved. To manage your list and keep your reading organized, Omnivore provides the following actions:
+저장소의 받은 문서함은 Omnivore에 저장된 모든 링크를 보여줍니다. 목록을 정리하고 체계적인 독서를 돕기 위해 Omnivore는 다음과 같은 방법들을 제공합니다:
 
 [[toc]]
 
-## Archiving
+## 보관함
 
-1. Tap the Menu icon next to the link you wish to archive (on the mobile app, long press the link to open the menu, or swipe from the right).
-2. Select Archive.
-3. The link will disappear from the default Library view, but will show up if you select the Archived filter (see Filters below).
+1. 보관함에 보내고자 하는 링크의 옆에 표시되는 메뉴 아이콘을 누르세요 (모바일 앱에서는 롱탭을 이용해서 메뉴를 열거나 오른쪽에서 왼쪽으로 스와이프 하세요).
+2. 보관하기를 고르세요.
+3. 해당 링크가 저장소 화면에서 사라지지만 보관함 필터를 적용하면 보여집니다 (필터 참조).
 
-## Labels
+## 레이블
 
-1. Tap the Menu icon next to any link and select Set Labels.
-2. Select an existing label from the list or tap Edit Labels to create a new one.
-3. The label will appear next to the link in your Library. Tap it to view all links with the same label.
+1. 저장된 링크 옆의 메뉴 버튼을 누르고 레이블 설정하기 버튼을 눌러 주세요.
+2. 목록에서 레이블을 고르거나 레이블 편집하기 메뉴를 통해 새로운 레이블을 생성하세요.
+3. 저장소에 있는 링크의 옆에 레이블이 표시됩니다. 같은 레이블을 보유한 모든 링크를 보려면 레이블을 클릭하세요.
 
-::: tip Note: Omnivore will automatically assign some labels, such as “Newsletters.”
+::: tip 참고: "뉴스레터"와 같은 특정 레이블은 Omnivore에 의해 자동으로 설정됩니다.
 :::
 
-## Search
+## 검색
 
-Omnivore uses allows full-text search of your entire library. To search through all your saved links, enter a keyword or phrase in the search bar.
+Omnivore 저장소에 저장된 모든 문서에 대해 전문 검색을 실시할 수 있습니다. 저장된 모든 링크를 대상으로 검색하려면 검색창에 검색어 또는 문구를 입력하세요.
 
-You can combine keywords with labels and filters to focus your search even further using [advanced search](./search).
+검색어를 레이블 및 필터와 조합하는 [고급 검색](./search) 기능을 이용하여 더 상세한 검색을 할 수 있습니다.

@@ -1,42 +1,42 @@
 ---
-title: Reading in Omnivore
+title: Omnivore에서 읽기
 editLink: true
 ---
 
 # {{ $frontmatter.title }}
 
-Click any link saved in your Library to enter the Reader view.
+저장소에 저장된 링크를 클릭하면 읽기 모드로 전환됩니다.
 
-Omnivore formats pages for easy reading and highlighting, removing ads and clutter for distraction-free reading. The text-focused view also makes articles smaller and quicker to load.
+Omnivore는 저장된 페이지에서 광고 및 불필요한 내용을 제거합니다. 이를 통해 독서에 집중할 수 있고 읽기와 하이라이트 추가가 쉬운 환경을 제공합니다. 읽기 모드는 문자에 특화되어 있어 문서의 용량을 줄이고 문서를 불러오는 시간도 단축합니다.
 
-While reading, you can:
+문서를 읽는 동안에 다음의 행동들을 취할 수 있습니다:
 
 [[toc]]
 
-## Change Formatting
+## 양식 변경하기
 
-- **Theme**: Tap your photo, initial, or avatar in the top right corner to access the profile menu. Select the white or black thumbnail to choose the Light or Dark theme.
+- **테마**: 화면 우측 상단의 사진, 이름 첫글자, 또는 아바타 그림을 눌러 프로필 메뉴로 들어가세요. 흰색 또는 검정색 썸네일을 눌러 라이트 모드 또는 다크 모드를 선택할 수 있습니다.
 
-- **Text Formatting**: Tap the `Aa` icon to adjust the text size, font, margins, and line spacing.
+- **문자 양식**: `Aa` 아이콘을 눌러서 글자 크기, 글꼴, 여백, 줄 간격을 조정할 수 있습니다.
 
-## Highlight Text
+## 하이라이트 추가하기
 
-- Select the text you wish to highlight.
-- Tap the Highlight button.
-- The text will appear highlighted next time you view the article.
+- 글에서 강조하고자 하는 부분을 선택하세요.
+- 하이라이트 버튼을 누르세요.
+- 다음에 이 문서를 읽을 때에 해당 부분이 강조되어 표시됩니다.
 
-## Adding notes to your highlights
+## 하이라이트된 내용에 노트 추가하기
 
-- Highlight a section of text where you wish to add a note.
-- Tap the Note button, type your note, and tap Save.
-- The Note icon will appear next time you view this article.
+- 노트를 추가하고자 하는 부분에 하이라이트를 추가하세요.
+- 노트 버튼을 누르고 내용을 작성한 뒤에 저장 버튼을 누르세요.
+- 다음에 이 문서를 읽을 때에 노트 아이콘이 표시됩니다.
 
-## View All Saved Highlights and Notes
+## 저장된 모든 하이라이트와 노트 보기
 
-Tap the Highlight/Note icon to see a list of all the highlighted text and notes you have added to this page.
+하이라이트/노트 아이콘을 눌러 읽고 있는 페이지에 추가된 모든 하이라이트와 노트를 볼 수 있습니다.
 
-To remove a note or highlight, select it from the list and tap the Trash icon.
+하이라이트나 노트를 제거하려면 목록에서 해당 내용을 선택한 뒤에 휴지통 아이콘을 누르세요.
 
-## Track Reading Progress
+## 읽기 진행도 확인하기
 
-Omnivore automatically keeps track of your reading progress across your different devices so you can easily pick up where you left off. A progress bar will appear at the top of each link in your Library after you have started reading.
+Omnivore는 자동으로 여러 기기에서의 읽기 진행도를 추적하여 사용자가 마지막에 읽었던 부분에서부터 계속하여 읽기 쉽게 도와줍니다. 저장소에 있는 읽기 시작한 링크에는 진행도 그래프가 표시됩니다.
