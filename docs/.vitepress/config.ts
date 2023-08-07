@@ -1,6 +1,7 @@
 import { defineConfig } from "vitepress";
 import { en } from "./locales/en";
 import { es } from "./locales/es";
+import { ko } from "./locales/ko";
 import { zhCN } from "./locales/zh";
 export default defineConfig({
   lastUpdated: true,
@@ -8,5 +9,6 @@ export default defineConfig({
     root: en,
     zh: zhCN,
     es: es,
+    ko: ko,
   },
 });
