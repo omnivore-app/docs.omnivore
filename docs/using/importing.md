@@ -31,16 +31,20 @@ The importer will ingest the URLs listed in the `_matter_history.csv` file. If t
 
 ## Importing CSV files
 
-Omnivore can import a list of URLs supplied as a CSV file. The file should be formated as with three columns and no CSV header, the columns are:
+Omnivore can import a list of URLs supplied as a CSV file. The file should be formated as with five columns and a CSV header, the columns are:
 
-- 0: URL (full url of the item to be imported)
-- 1: status: Either ARCHIVED or SUCCEEDED (set to ARCHIVED to have your item archived on import)
-- 2: labels: In the format `[Label1, Label2, Label3]`, note the square brackets (`[`,`]`) around the list of labels. If the item has no labels this column can be empty. Labels can also also be separated with quotes, but due to CSV quote escaping they will need to be doubled, for example: `"[""label1"",""label2""]"`
+- url: unique URL (full url of the item to be imported).
+- state: Either ARCHIVED or SUCCEEDED (set to ARCHIVED to have your item archived on import). If the state is not specified, the item will be imported as SUCCEEDED.
+- labels: In the format `[Label1, Label2, Label3]`, note the square brackets (`[`,`]`) around the list of labels. If the item has no labels this column can be empty. Labels can also also be separated with quotes, but due to CSV quote escaping they will need to be doubled, for example: `"[""label1"",""label2""]"`. If the item has no labels this column can be empty.
+- saved_at: The unix timestamp in milliseconds the item was saved. If the item has no saved_at date, this column can be empty.
+- published_at: The unix timestamp in milliseconds the item was published. If the item has no published_at date, this column can be empty.
 
-Example Row:
+Example File:
 
 ```
-https://jacksonh.org,SUCCEEDED,[Handsome Developers, Profile Page]
+url,state,labels,saved_at,published_at
+https://jacksonh.org,SUCCEEDED,[Handsome Developers, Profile Page],1614556800000,1614556800000
+https://jacksonh.org/blog,,,,
 ```
 
 ## Importing using the API
