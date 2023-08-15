@@ -43,7 +43,7 @@ Example File:
 
 ```
 url,state,labels,saved_at,published_at
-https://jacksonh.org,SUCCEEDED,[Handsome Developers, Profile Page],1614556800000,1614556800000
+https://jacksonh.org,SUCCEEDED,"[Handsome Developers, Profile Page]",1614556800000,1614556800000
 https://jacksonh.org/blog,,,,
 ```
 
