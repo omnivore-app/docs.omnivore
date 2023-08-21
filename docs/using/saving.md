@@ -23,6 +23,20 @@ There are five ways to save links to pages or articles that you wish to read lat
 3. Alternatively, you can right-click (command+click on Mac) on any hyperlink and select Save to Omnivore from the menu.
 4. The link will appear in your Library the next time you refresh it.
 
+### Using a bookmarklet
+
+Some security policies prevent users from installing browser extensions. If you are unable to use a browser extension you can install a bookmarklet to save from your browser. The bookmarklet is unable to access the content of the page you are saving, so for content that can not be accessed via URL, like paywalled content, the bookmarklet will give poor results.
+
+You can use the following code to create a bookmarklet that saves to Omnivore:
+
+```
+javascript:window.open("https://omnivore.app/api/save?url=%22%20+%20window.location.href,%20%27_blank%27);
+```
+
+Or drag the Save to Omnivore link below into your bookmark manager:
+
+<a href='javascript:window.open("https://omnivore.app/api/save?url=" + window.location.href, %27_blank%27);'>Save to Omnivore</a>
+
 ## Saving from a Phone or Tablet
 
 The best way to save links from your mobile device is via the Omnivore app. You can download the app here:
@@ -59,5 +73,3 @@ The link will appear in your Library the next time you refresh it.
 ## Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HfQxQPT5-tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
-predominantly
