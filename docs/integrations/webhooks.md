@@ -12,10 +12,10 @@ Upon setting up the webhook URL, that URL will recieve post requests of the sele
 ```
 {
     "action": "created",
-    "userId": "7252931c-4169-11ee-8ce6-83ad71786981",
+    "userId": "<YOUR USER ID>",
     "page": {
         "type": "page",
-        "userId": "7252931c-4169-11ee-8ce6-83ad71786981",
+        "userId": "<YOUR USER ID>",
         "id": "f187586d-1380-4c1b-887f-140fb9217465",
         "slug": "fast-api-experiment-middleware-feature-by-life-is-short-so-enjoy-18a22a66735",
         "originalHtml": "FULLHTML",
