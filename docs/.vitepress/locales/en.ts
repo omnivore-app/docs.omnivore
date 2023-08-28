@@ -7,10 +7,10 @@ export const themeConfig: DefaultTheme.Config = {
       "https://github.com/omnivore-app/docs.omnivore/edit/main/docs/:path",
     text: "Edit this page on GitHub",
   },
-  
-  darkModeSwitchLabel: 'Theme',
-  sidebarMenuLabel: 'Content',
-  
+
+  darkModeSwitchLabel: "Theme",
+  sidebarMenuLabel: "Content",
+
   sidebar: [
     {
       text: "About",
@@ -27,6 +27,7 @@ export const themeConfig: DefaultTheme.Config = {
         { text: "Saving Links", link: "/using/saving" },
         { text: "Reading", link: "/using/reading" },
         { text: "Email Inbox", link: "/using/inbox" },
+        { text: "Feeds (RSS & Atom)", link: "/using/feeds" },
         { text: "Organizing", link: "/using/organizing" },
         { text: "Text to Speech", link: "/using/text-to-speech" },
         { text: "Search", link: "/using/search" },
