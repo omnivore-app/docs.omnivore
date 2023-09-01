@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-Omnivore offers some extra tools to manager your account and library.
+Omnivore offers some extra tools to manage your account and library.
 
 [[toc]]
 
