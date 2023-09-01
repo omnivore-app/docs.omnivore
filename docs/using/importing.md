@@ -9,6 +9,9 @@ Omnivore allows importing data from other data sources. When using the import AP
 
 The maximum file size for an import is 10MB. If your import exceeds this size please email [feedback@omnivore.app](mailto:feedback@omnivore.app) for assistance.
 
+::: warning We highly recommend using Omnivore for a few days before doing an import. This will give you a sense of the features available, how you'd like to structure your labels, and what data you'd like to have available in Omnivore.
+:::
+
 [[toc]]
 
 ## Importing data from Matter
@@ -46,6 +49,8 @@ url,state,labels,saved_at,published_at
 https://jacksonh.org,SUCCEEDED,"[Handsome Developers, Profile Page]",1614556800000,1614556800000
 https://jacksonh.org/blog,,,,
 ```
+
+Once you have a properly structured CSV file, you can drag it into your library on the web to initiate the import. Note that Omnivore has to fetch all the URLs in your import, so its a slow process.
 
 ## Importing using the API
 
