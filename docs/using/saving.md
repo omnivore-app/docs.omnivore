@@ -23,6 +23,16 @@ There are five ways to save links to pages or articles that you wish to read lat
 3. Alternatively, you can right-click (command+click on Mac) on any hyperlink and select Save to Omnivore from the menu.
 4. The link will appear in your Library the next time you refresh it.
 
+### Authentication Issues
+
+The browser extension uses the same authentication cookie as the omnivore.app site. Some browser security configurations might prevent the extension from accessing this cookie. When this happens saving requests will fail, and you might be asked to login again. This is common with more secure browser setups, such as Firefox tab containers.
+
+To work around this you can authenticate with an API key set in the extension preferences, instead of with the site's authentication cookie. First create an API key at https://omnivore.app/settings/api then go into the extension preferences (sometimes called options), and add the API key.
+
+Here is a quick demo video
+
+<div style="position: relative; padding-bottom: 64.5933014354067%; height: 0;"><iframe src="https://www.loom.com/embed/dd3420464fdf49ffa1811601cace57ec?sid=ca629aff-8dd4-48ae-8dae-05118ac53f81" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
+
 ### Using a bookmarklet
 
 Some security policies prevent users from installing browser extensions. If you are unable to use a browser extension you can install a bookmarklet to save from your browser. The bookmarklet is unable to access the content of the page you are saving, so for content that can not be accessed via URL, like paywalled content, the bookmarklet will give poor results.
