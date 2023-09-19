@@ -1,5 +1,5 @@
 ---
-title: Using your email Inbox
+title: Feeds (RSS & Atom)
 editLink: true
 ---
 
