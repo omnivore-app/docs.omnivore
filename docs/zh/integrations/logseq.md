@@ -104,6 +104,7 @@ date-published:: {{{datePublished}}}
 - dateHighlighted: 高亮显示的创建日期，以你惯用的日期格式，周围用双括号括起来，例如 `[[2021-01-01]]`
 - rawDateHighlighted: 创建高亮显示的日期，以你喜欢的日期格式表示。
 - note: 高亮显示所附带的注释
+- color: 高亮显示的颜色，例如 `yellow`
 
 默认的高亮模板：
 
