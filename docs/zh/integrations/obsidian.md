@@ -179,6 +179,7 @@ date_published: {{{datePublished}}}
 * lowerCase：将一个字符串转换为小写字母
 * upperCase：将一个字符串转换为大写字母
 * upperCaseFirst：将一个字符串的第一个字符转换为大写字母
+* formatDate：将日期转换为你喜欢的日期格式，例如 `{{#formatDate}}{{dateSaved}},"yyyy-MM-dd"{{/formatDate}}`。
 
 在模板中使用一个函数将文章的状态转换为小写字母的例子：
 
