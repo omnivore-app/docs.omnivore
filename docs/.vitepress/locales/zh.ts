@@ -54,8 +54,8 @@ export const themeConfig: DefaultTheme.Config = {
       ],
     },
     {
-      text: "自我托管",
-      items: [{ text: "自我托管", link: "/zh/self-hosting/self-hosting" }],
+      text: "私有化部署",
+      items: [{ text: "私有化部署", link: "/zh/self-hosting/self-hosting" }],
     },
   ],
 };
