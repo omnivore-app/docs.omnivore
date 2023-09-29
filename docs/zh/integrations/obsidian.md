@@ -5,7 +5,7 @@ editLink: true
 
 # {{ $frontmatter.title }}
 
-Omninove 通过 [obsidian-omnivore](https://github.com/omnivore-app/obsidian-omnivore) 与 Obsidian 集成。该插件允许自定义从 Omnivore 同步到 Obsidian 的数据，并控制数据的布局。
+omnivore 通过 [obsidian-omnivore](https://github.com/omnivore-app/obsidian-omnivore) 与 Obsidian 集成。该插件允许自定义从 Omnivore 同步到 Obsidian 的数据，并控制数据的布局。
 
 [[toc]]
 
