@@ -41,6 +41,7 @@ The `is:` filter is used to filter search by read state. Note that in Omnivore '
 The `is:` filter options are:
 
 - `is:read`: Show only items that are fully read
+- `is:reading`: Show only items that are currently being read
 - `is:unread`: (the default selected option) Show unread items
 
 ## Filtering by type
