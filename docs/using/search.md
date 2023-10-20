@@ -31,8 +31,8 @@ The `in:` filter is used to filter search by archive status.
 The options are:
 
 - `in:inbox` (the default selected option) Show unarchived items
-- `in:archive:` Show archived items
-- `in:all:` Show all items regardless of archive state
+- `in:archive` Show archived items
+- `in:all` Show all items regardless of archive state
 
 ## Filtering by read state
 
