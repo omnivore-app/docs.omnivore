@@ -11,9 +11,9 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 ## Features
 
-* Import your highlights and saved article
+* Import your highlights and saved articles
 * Create graphs based on Omnivore data
-* Filter imported data using Omnivores [advanced search syntax](https://omnivore.app/help/search)
+* Filter imported data using Omnivore's [advanced search syntax](https://omnivore.app/help/search)
 * Custom templates for imported data
 
 ## Installation
@@ -36,7 +36,7 @@ The Omnivore Obsidian plugin offers three options for which data is imported:
 
 ## Controlling the layout of the data imported to Obsidian
 
-The Omnivore Obsidian plugin uses the [mustache](https://mustache.github.io/) template language to define how imported data is saved to Obsidian. The plugin settings allow you to define the template for a article layout. The default templates will be used if you do not define your own.
+The Omnivore Obsidian plugin uses the [mustache](https://mustache.github.io/) template language to define how imported data is saved to Obsidian. The plugin settings allow you to define the template for an article layout. The default templates will be used if you do not define your own.
 
 ### Mustache template language
 
@@ -118,7 +118,7 @@ Default template:
 ::: warning Full content import does not work for PDFs
 :::
 
-The content of articles is converted to Markdown before import, this means we need them to avoid HTML
+The content of articles is converted to Markdown before import. This means we need them to avoid HTML
 escaping when being inserted into Obsidian. To do this, use the triple Mustache syntax.
 Any highlights that you have created in Omnivore will be rendered as Markdown highlights.
 So to import the full article content:
