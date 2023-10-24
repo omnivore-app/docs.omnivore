@@ -31,8 +31,8 @@ The `in:` filter is used to filter search by archive status.
 The options are:
 
 - `in:inbox` (the default selected option) Show unarchived items
-- `in:archive:` Show archived items
-- `in:all:` Show all items regardless of archive state
+- `in:archive` Show archived items
+- `in:all` Show all items regardless of archive state
 
 ## Filtering by read state
 
@@ -65,6 +65,14 @@ For Example:
 - `saved:2022-04-21.._` All items saved since 2022-04-21
 - `published:2020-01-01..2022-02-02` All items published between 2020-01-01 and 2022-02-02
 - `published:_..2020-01-01` All items published before 2020-01-01
+
+## Filtering by language
+
+You can filter your searches based on the language of the article using the `language:` filter.
+
+For example:
+
+- `language:italian` displays only articels in Italian
 
 ## Sorting
 
