@@ -66,6 +66,14 @@ For Example:
 - `published:2020-01-01..2022-02-02` All items published between 2020-01-01 and 2022-02-02
 - `published:_..2020-01-01` All items published before 2020-01-01
 
+## Filtering by language
+
+You can filter your searches based on the language of the article using the `language:` filter.
+
+For example:
+
+- `language:italian` displays only articels in Italian
+
 ## Sorting
 
 By default all search results in Omnivore are sorted by saved date. This puts the most recently saved items at the top of your library. You can use sort options to change the library order:
