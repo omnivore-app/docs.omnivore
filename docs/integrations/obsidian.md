@@ -178,9 +178,13 @@ Simplified template with full content and file attachment, if it there is one.
 
 ### Function map in the article template
 
+::: v-pre
+
 * lowerCase: Converts a string to lowercase
 * upperCase: Converts a string to uppercase
 * upperCaseFirst: Converts the first character of a string to uppercase
+* formatDate: Converts a date to a different format. For example, `{{#formatDate}}{{dateSaved}},"yyyy-MM-dd"{{/formatDate}}` will convert the date to `2022-01-01`.
+:::
 
 Example of using a function in a template to convert the state of an article to lowerCase:
 
