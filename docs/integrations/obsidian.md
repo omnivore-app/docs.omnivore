@@ -65,11 +65,11 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 * title: The title of the article
 * omnivoreUrl: The URL of the article in Omnivore
 * siteName: The name of the site the article was saved from
-* originalUrl: The URL of the original article
+* originalUrl: The URL of the original article. If the article was created from an emailed binary (eg PDF) attachment, this URL will reference the attachment and will not be accessible.
 * author: The author of the article
 * dateSaved: The date the article was saved to Omnivore in your perferrred date format
 * description: The description of the article
-* content: The content of the article in Markdown format
+* content: The content of the article in Markdown format. This may be empty if the article was created from an emailed binary (eg PDF) attachment.
 * labels: A list of labels attached to the page
   * name: The name of the label, for example `Newsletter`
 * note: The note attached to the article
@@ -157,6 +157,22 @@ date_published: {{{datePublished}}}
 
 {{{ content }}}
 
+```
+
+Simplified template with full content and file attachment, if it there is one.
+
+> Note if the article was created via an emailed binary (eg PDF) attachment, `content` will be empty.
+
+```
+# {{{title}}}
+
+{{{content}}}
+
+{{#fileAttachment}}
+---
+
+![[{{{fileAttachment}}}]]
+{{/fileAttachment}}
 ```
 
 ### Function map in the article template
