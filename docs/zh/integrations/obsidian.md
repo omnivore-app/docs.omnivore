@@ -88,6 +88,7 @@ Mustache 标签有几种类型，包括：
     * name：标签的名称，例如 `Newsletter` 。
   * note：荧光笔高亮显示所附带的注释。
   * dateHighlighted：荧光笔高亮显示创建的日期，以你喜欢的日期格式表示。
+  * color：荧光笔高亮显示的颜色，例如 `yellow` 。
 
 默认模板：
 
