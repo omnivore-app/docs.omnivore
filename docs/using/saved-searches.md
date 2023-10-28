@@ -32,8 +32,20 @@ Use the Saved Searches menu to refine your Library view (some filters may be vis
 
 ## Editing Saved Searches on the Web
 
-- Click on the `Edit Saved Searches` [link](https://omnivore.app/settings/saved-searches) at the bottom of the Saved Searches section. 
-- There you can : re-order the items, toggle their visbility and for custom saved searches you can delete them
-- To create a custom svaed searches, click the  `Add Saved Search` button then enter a name and a [query](search.html)
+- Click on the `Edit Saved Searches` [link](https://omnivore.app/settings/saved-searches) at the bottom of the  `Saved Searches`  section of the Web app. 
 
-Editing saved searches is not available on the native apps. Also the Saved Searches are not synchronzed with the native apps.
+![Edit Saved Searches Menu](./images/omnivore-list-saved-searches-edit-menu.png)
+
+- There you can : re-order the items, toggle their visbility and, for custom saved searches, delete them.
+
+![Edit Saved Searches Page](./images/omnivore-list-saved-searches-edit-page.png)
+
+- To create a custom saved searches, click the  `Add Saved Search` button then enter a name and a [query](./search.md).
+
+![Add a new Saved Search item](./images/omnivore-list-saved-searches-edit-new-saved-search.png)
+
+![The new item](./images/omnivore-list-saved-searches-new-item.png)
+
+::: info 
+Editing saved searches is not available on the native apps. Also the Saved Searches items are not synchronzed with the native apps.
+:::
