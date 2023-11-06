@@ -105,6 +105,8 @@ date-published:: {{{datePublished}}}
 - rawDateHighlighted: The date the highlight was created in your perferrred date format
 - note: The note attached to the highlight
 - color: The color of the highlight, for example `yellow`
+- positionPercent: The position of the highlight in the article as a percentage
+- positionAnchorIndex: The position of the highlight in the article as an index/page number
 
 Default highlight template:
 

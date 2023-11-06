@@ -90,6 +90,8 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
   * dateHighlighted: The date the highlight was created in your perferrred date format
   * highlightID: The uuid of the highlight
   * color: The color of the highlight, for example `yellow`
+  * positionPercent: The position of the highlight in the article as a percentage
+  * positionAnchorIndex: The position of the highlight in the article as an index/page number
 
 Default template:
 
