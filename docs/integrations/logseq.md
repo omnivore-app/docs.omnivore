@@ -63,7 +63,6 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - author: The author of the article
 - dateSaved: The date the article was saved to Omnivore in your perferrred date format with double brackets around it, for example `[[2021-01-01]]`
 - description: The description of the article
-- content: The content of the article in Markdown format
 - labels: A list of labels attached to the page
   - name: The name of the label, for example `Newsletter`
 - note: The note attached to the article
