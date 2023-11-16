@@ -250,6 +250,20 @@ date_published: {{{datePublished}}}
 
 By default, Omnivore will sync articles into separate pages in Obsidian. If you would like to sync all your articles into a single note, you can turn on the option **Is Single File** and use a fixed **Filename** in the plugin settings.
 
+## Filename
+
+::: v-pre
+Enter a filename for the article. You can either use a fixed filename or a template. If you use a template, the filename will be generated based on the template. For example, if you enter `{{{ title }}}`, the filename will be the title of the article.
+:::
+
+Available variables for the template are:
+
+* id
+* title
+* author
+* dateSaved
+* datePublished
+
 ## Scheduled Sync
 
 By default, Omnivore does not automatically sync your data. You can enable scheduled sync by entering a number of minutes in the **Frequency** setting. For example, if you enter `60`, Omnivore will sync your data every hour and you can always turn it off by entering `0`.
