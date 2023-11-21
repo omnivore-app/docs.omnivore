@@ -15,6 +15,12 @@ By default, the Library inbox displays all links you have saved. To manage your 
 2. Select Archive.
 3. The link will disappear from the default Library view, but will show up if you select the Archived filter (see Filters below).
 
+## Removing
+
+1. Tap the Menu icon next to the link you wish to delete (on the mobile app, long press the link to open the menu, or swipe from the right).
+2. Select Remove or Remove Item.
+3. The link will disappear from the default Library view, but will show up if you select the Deleted filter (see Filters below) for the next 2 weeks.
+
 ## Labels
 
 1. Tap the Menu icon next to any link and select Set Labels.
