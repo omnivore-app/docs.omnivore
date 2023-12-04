@@ -81,6 +81,7 @@ By default all search results in Omnivore are sorted by saved date. This puts th
 - `sort:saved`: Sort by saved date
 - `sort:updated`: Sort by time the item was updated, for example having a label or highlight added
 - `sort:score`: Sort by query term relevance
+- `sort:wordsCount`: Sort by reading time
 
 Additionally, you can change the sort order by apending either `-asc` or `-des` to the sort parameter to sort by ascending or descending order respectively:
 
