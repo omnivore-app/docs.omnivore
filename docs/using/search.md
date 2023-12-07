@@ -34,6 +34,10 @@ The options are:
 - `in:archive` Show archived items
 - `in:all` Show all items regardless of archive state
 
+## Filtering for deleted items
+
+To find the items you have removed or deleted, you can use the « Deleted » built-in filter on the mobile app or search with the `in:trash` option on the web. Items older than 2 weeks in the trash will be permanently deleted (in the current implementation they are simply not visible anymore).
+
 ## Filtering by read state
 
 The `is:` filter is used to filter search by read state. Note that in Omnivore 'read' means fully read, not just opened.
