@@ -38,7 +38,7 @@ You can import up to 20 000 articles from your Pocket account to Omnivore.
 
 To start the process, go to the [Integrations](https://omnivore.app/settings/integrations) page of the `Settings` section of the Web app. Connect your Pocket account. The process will run in the background and you will receive an email when it’s completed.
 
-::: tip The data imported will include your archived content.
+::: tip The dropdown option will let you choose to import all your Pocket content or only the unarchived items.
 :::
 
 ## Importing CSV files
