@@ -47,5 +47,5 @@ Use the Saved Searches menu to refine your Library view (some filters may be vis
 ![The new item](./images/omnivore-list-saved-searches-new-item.png)
 
 ::: info 
-Editing saved searches is not available on the native apps.
+Since version 1.40, the saved searches are available in the native apps but you cannot edit them.
 :::
