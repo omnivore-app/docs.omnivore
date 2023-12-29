@@ -63,7 +63,6 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 - author: The author of the article
 - dateSaved: The date the article was saved to Omnivore in your perferrred date format with double brackets around it, for example `[[2021-01-01]]`
 - description: The description of the article
-- content: The content of the article in Markdown format
 - labels: A list of labels attached to the page
   - name: The name of the label, for example `Newsletter`
 - note: The note attached to the article
@@ -105,6 +104,8 @@ date-published:: {{{datePublished}}}
 - rawDateHighlighted: The date the highlight was created in your perferrred date format
 - note: The note attached to the highlight
 - color: The color of the highlight, for example `yellow`
+- positionPercent: The position of the highlight in the article as a percentage
+- positionAnchorIndex: The position of the highlight in the article as an index/page number
 
 Default highlight template:
 
@@ -131,14 +132,7 @@ state:: [[{{#lowerCase}}{{state}}{{/lowerCase}}]]
 ::: warning Full content import does not work for PDFs
 :::
 
-The content of articles is converted to Markdown before import, this means we need them to avoid HTML
-escaping when being inserted into Logseq. To do this, use the triple Mustache syntax.
-Any highlights that you have created in Omnivore will be rendered as Markdown highlights.
-So to import the full article content:
-
-```
-{{{ content }}}
-```
+Import the full content of the article in Markdown format into Logseq by selecting "syncContent" in the plugin settings.
 
 ## Sync articles into a specific Logseq page
 
