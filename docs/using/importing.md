@@ -47,7 +47,7 @@ Omnivore can import a list of URLs supplied as a CSV file. The file should be fo
 
 - url: unique URL (full url of the item to be imported).
 - state: Either ARCHIVED or SUCCEEDED (set to ARCHIVED to have your item archived on import). If the state is not specified, the item will be imported as SUCCEEDED.
-- labels: In the format `[Label1, Label2, Label3]`, note the square brackets (`[`,`]`) around the list of labels. Labels can also also be separated with quotes, but due to CSV quote escaping they will need to be doubled, for example: `"[""label1"",""label2""]"`. If the item has no labels this column can be empty.
+- labels: In the format `[Label1, Label2, Label3]`, note the square brackets (`[`,`]`) around the list of labels. Labels may be separated with quotes, which is necessary to include whitespace. Due to CSV quote escaping they will need to be doubled, for example: `"[""label 1"",""label 2""]"`. If the item has no labels this column can be empty.
 - saved_at: The unix timestamp in milliseconds the item was saved. If the item has no saved_at date, this column can be empty.
 - published_at: The unix timestamp in milliseconds the item was published. If the item has no published_at date, this column can be empty.
 
