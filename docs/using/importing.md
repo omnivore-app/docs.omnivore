@@ -43,7 +43,7 @@ To start the process, go to the [Integrations](https://omnivore.app/settings/int
 
 ## Importing CSV files
 
-Omnivore can import a list of URLs supplied as a CSV file. The file should be formated as with five columns and a CSV header, the columns are:
+Omnivore can import a list of URLs by supplying a CSV file containing the following columns:
 
 - url: unique URL (full url of the item to be imported).
 - state: Either ARCHIVED or SUCCEEDED (set to ARCHIVED to have your item archived on import). If the state is not specified, the item will be imported as SUCCEEDED.
