@@ -26,7 +26,7 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 ## Customizing which data is synced from Omnivore to Obsidian
 
-[Obsidian Sync Filter](./images/obsidian-sync-filter.png)
+![Obsidian Sync Filter](./images/obsidian-sync-filter.png)
 
 The Omnivore Obsidian plugin offers three options for which data is imported:
 
