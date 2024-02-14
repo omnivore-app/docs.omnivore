@@ -7,7 +7,7 @@ editLink: true
 
 Omnivore allows importing data from other data sources. When using the import API, you are limited to three imports per a day.
 
-The maximum file size for an import is 10MB. If your import exceeds this size please email [feedback@omnivore.app](mailto:feedback@omnivore.app) for assistance.
+The maximum file size for an import is 10MB, and CSV imports are limited to 5000 rows. If your import exceeds this size please email [feedback@omnivore.app](mailto:feedback@omnivore.app) for assistance.
 
 ::: warning We highly recommend using Omnivore for a few days before doing an import. This will give you a sense of the features available, how you'd like to structure your labels, and what data you'd like to have available in Omnivore.
 :::
