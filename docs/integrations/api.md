@@ -56,6 +56,7 @@ curl -X POST -d '{ "query": "mutation SaveUrl($input: SaveUrlInput!) { saveUrl(i
 
 ## Sample Apps:
 
+- [Omnivore Telegram Bot 🤖](https://github.com/Rnbsov/Omnivore-Telegram-Bot):  Save articles or Inline query them to share recent findings with friends ✨
 - [omnivore-import](https://github.com/davidohlin/instapaper-to-omnivore-import): A typescript tool for importing a library previously exported from Instapaper (written in TypeScript)
 - [omnivore-api-demo-csharp](https://github.com/laurentkempe/omnivore-api-demo-csharp): Download all your articles and save in Markdown format (written in C#)
 - [OmnivoreQL](https://github.com/yazdipour/OmnivoreQL): GraphQL omnivore client for Python (written in Python)
