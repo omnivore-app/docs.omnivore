@@ -15,14 +15,15 @@ Omnivore will perform full text search across library items' content, title, des
 
 ## Filtering by label
 
-You can filter your search based on labels using AND and OR clauses. You can also negate a label search to find pages that do not have a certain label.
+You can filter your search based on labels using AND and OR clauses. You can also negate a label search to find pages that do not have a certain label. Labels are case sensitive.
 
 Some examples:
 
-- `label:Newsletter` Finds all pages that have the label Newsletter
-- `label:Cooking,Fitness` Finds all pages with either the Cooking or Fitness labels
-- `label:Newsletter label:Surfing` Finds all pages with both the Newsletter and Surfing labels
-- `label:Coding -label:News` Finds all pages with the Coding label that do not have the News label
+- `label:Newsletter` Finds all pages that have the label **Newsletter**
+- `label:Cooking,Fitness` Finds all pages with either the **Cooking** or **Fitness** labels
+- `label:Newsletter label:Surfing` Finds all pages with both the **Newsletter** and **Surfing** labels
+- `label:Coding -label:News` Finds all pages with the **Coding** label that do not have the **News** label
+- `label:"Send to Obsidian"` Finds all page with the multi-word label **Send to Obsidian**
 
 ## Filtering by archive status
 
