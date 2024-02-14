@@ -61,6 +61,7 @@ curl -X POST -d '{ "query": "mutation SaveUrl($input: SaveUrlInput!) { saveUrl(i
 - [omnivore-api-demo-csharp](https://github.com/laurentkempe/omnivore-api-demo-csharp): Download all your articles and save in Markdown format (written in C#)
 - [OmnivoreQL](https://github.com/yazdipour/OmnivoreQL): GraphQL omnivore client for Python (written in Python)
 - [OmnivoreX](https://github.com/yazdipour/OmnivoreX): Text User Interface Omnivore Client to read articles in command line in Markdown format (written in Python)
+- [omnivore-opml-import](https://github.com/edleeman17/omnivore-opml-import): A simple tool for importing OPML feeds into Omnivore (written in Javascript)
 
 ## Saving requests from the browser
 
