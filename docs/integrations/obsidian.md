@@ -26,13 +26,26 @@ Omninove integrates with Obsidian via the [obsidian-omnivore](https://github.com
 
 ## Customizing which data is synced from Omnivore to Obsidian
 
+When you sync your data from Omnivore to Obsidian, you can choose which data you want to sync. You can filter the data based on the folder, the labels attached to the item, and etc.
+
+### Custom Query
+
+The Omnivore Obsidian plugin allows you to use Omnivore's [advanced search syntax](../using/search) to filter the data you want to sync from Omnivore to Obsidian. You can enter a custom query in the plugin settings under **Custom Query**. For example, if you want to sync only the items tagged with `Obsidian`, you can enter `in:all label:Obsidian` in the Custom Query.
+
+### Filter
+
 ![Obsidian Sync Filter](./images/obsidian-sync-filter.png)
 
-The Omnivore Obsidian plugin offers three options for which data is imported:
+The Omnivore Obsidian plugin also offers four easy options for which data is synced from Omnivore to Obsidian. You can select one of the following options in the plugin settings under **Filter**:
 
-* Import all my articles: This will import every article you save to Omnivore and the labels (tags), highlights, and notes you have added to the article.
-* Import just highlights: This will import every article you have saved that has highlights
-* Advanced: This allows you to define a search filter to import. For example, import just Newsletters by using `label:Newsletter`.
+* Sync all the items: This will sync every item from Omnivore including the labels (tags), highlights, and notes you have added to the item.
+* Sync only the library items: This will sync every item in you library folder from Omnivore.
+* Sync only the archived items: This will sync every archived item from Omnivore.
+* Sync only the highlighted items: This will sync every highlighted item from Omnivore.
+
+::: warning
+Changing the filter will automatically update **Custom Query** to reflect the new filter.
+:::
 
 ## Controlling the layout of the data imported to Obsidian
 
