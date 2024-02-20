@@ -178,7 +178,7 @@ Simplified template with full content and file attachment, if it there is one.
 {{/fileAttachment}}
 ```
 
-### Function map in the article template
+### Function map in the article template {#function-map-in-the-article-template}
 
 ::: v-pre
 
@@ -248,23 +248,48 @@ date_published: {{{datePublished}}}
 {{/datePublished}}
 ```
 
-## Sync all the articles into a single note
+## Customizing where the data is saved in Obsidian
 
-By default, Omnivore will sync articles into separate pages in Obsidian. If you would like to sync all your articles into a single note, you can turn on the option **Is Single File** and use a fixed **Filename** in the plugin settings.
+You can customize where the data is saved in Obsidian by defining the **Filename** and **Folder** templates in the plugin settings.
 
-## Filename
+### Filename
 
 ::: v-pre
-Enter a filename for the article. You can either use a fixed filename or a template. If you use a template, the filename will be generated based on the template. For example, if you enter `{{{ title }}}`, the filename will be the title of the article.
+Enter a filename for the note. You can either use a fixed filename or a template. If you use a template, the filename will be generated based on the template. For example, if you enter `{{{ title }}}`, the filename will be the title of the article.
 :::
 
-Available variables for the template are:
+### Folder
+
+::: v-pre
+Enter a folder name for the note. You can either use a fixed folder name or a template. If you use a template, the folder name will be generated based on the template. For example, if you enter `{{{ siteName }}}`, the folder name will be the name of the site the article was saved from so that the notes are organized by site.
+:::
+
+### Available variables and functions for Filename and Folder templates
+
+The meaning and usage of each variable and function is the same as the [variables and functions in the article template](#variables-available-in-the-template) and [function map in the article template](#function-map-in-the-article-template).
+
+#### Variables
 
 * id
 * title
 * author
+* siteName
+* type
 * dateSaved
 * datePublished
+* dateArchived
+* dateRead
+
+#### Functions
+
+* lowerCase
+* upperCase
+* upperCaseFirst
+* formatDate
+
+### Sync all the items into a single note
+
+By default, Omnivore will sync items into separate notes in Obsidian. If you would like to sync all your items into a single note, you can turn on the option **Is Single File** and use a fixed **Filename** in the plugin settings.
 
 ## Scheduled Sync
 
