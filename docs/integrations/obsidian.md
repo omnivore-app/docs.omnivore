@@ -250,21 +250,21 @@ date_published: {{{datePublished}}}
 
 ## Customizing where the data is saved in Obsidian
 
-You can customize where the data is saved in Obsidian by defining the **Filename** and **Folder** templates in the plugin settings.
-
-### Filename
-
-::: v-pre
-Enter a filename for the note. You can either use a fixed filename or a template. If you use a template, the filename will be generated based on the template. For example, if you enter `{{{ title }}}`, the filename will be the title of the article.
-:::
+You can customize where the data is saved in Obsidian by defining the **Folder** and **Filename** templates in the plugin settings.
 
 ### Folder
 
 ::: v-pre
-Enter a folder name for the note. You can either use a fixed folder name or a template. If you use a template, the folder name will be generated based on the template. For example, if you enter `{{{ siteName }}}`, the folder name will be the name of the site the article was saved from so that the notes are organized by site.
+Enter a folder name for the note. You can either use a fixed folder name or a template. If you use a template, the folder name will be generated based on the template. For example, if you enter `{{{ siteName }}}`, the folder name will be the name of the site the item was saved from so that the notes are organized by site.
 :::
 
-### Available variables and functions for Filename and Folder templates
+### Filename
+
+::: v-pre
+Enter a filename for the note. You can either use a fixed filename or a template. If you use a template, the filename will be generated based on the template. For example, if you enter `{{{ title }}}`, the filename will be the title of the item.
+:::
+
+### Available variables and functions for Folder and Filename templates
 
 The meaning and usage of each variable and function is the same as the [variables and functions in the article template](#variables-available-in-the-template) and [function map in the article template](#function-map-in-the-article-template).
 
