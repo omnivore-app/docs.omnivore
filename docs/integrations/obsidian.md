@@ -81,6 +81,7 @@ In addition to the basic Mustache tags, there are also several built-in Mustache
 * state: The state of the article, for example `READING` or `COMPLETED`
 * wordsCount: The number of words in the article
 * readLength: The length of time it took to read the article in minutes
+* note: If a note for a page has been created this will be set to the note's value.
 * highlights: A list of highlights attached to the article
   * text: The text of the highlight
   * highlightUrl: The URL of the highlight in Omnivore
