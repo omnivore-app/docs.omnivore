@@ -36,7 +36,7 @@ Available options:
 - `in:archive`: Show archived items.
 - `in:all`: Show all items regardless of archive state.
 
-Filtering by Item Type
+## Filtering by Item Type
 
 The search supports filtering by the type of item.
 
