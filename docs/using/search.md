@@ -48,6 +48,15 @@ The `is:` filter options are:
 - `is:read`: Show only items that are fully read
 - `is:unread`: (the default selected option) Show unread items
 
+## Filtering by Read Position
+
+The `readPosition:` filter can be used to filter your search results based on how much of an item you have read.
+
+- `readPosition:>30`: Shows items where you have **read more than 30%** of the total content.
+- `readPosition:<60`: Shows items where you have **read less than 60%** of the total content.
+
+For example, `readPosition:>30` will show articles where you have scrolled past 30% of the content. `readPosition:<60` will show articles where you haven't reached 60% of the content yet.
+
 ## Filtering by type
 
 The `type:` filter is used to filter search by type.
