@@ -26,7 +26,7 @@ Some examples:
 - `label:"Send to Obsidian"`: Finds all pages with the multi-word label **Send to Obsidian**
 - `no:label`: Finds all pages that have **no** labels assigned.
 
-Filtering by Archive Status
+## Filtering by Archive Status
 
 The in: filter is used to filter search results by their archive status.
 
