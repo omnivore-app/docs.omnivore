@@ -48,7 +48,7 @@ The `is:` filter options are:
 - `is:read`: Show only items that are fully read
 - `is:unread`: (the default selected option) Show unread items
 
-## Filtering by Read Position
+## Filtering by read position
 
 The `readPosition:` filter can be used to filter your search results based on how much of an item you have read.
 
