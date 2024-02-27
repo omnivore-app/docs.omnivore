@@ -19,21 +19,31 @@ You can filter your search based on labels using AND and OR clauses. You can als
 
 Some examples:
 
-- `label:Newsletter` Finds all pages that have the label **Newsletter**
-- `label:Cooking,Fitness` Finds all pages with either the **Cooking** or **Fitness** labels
-- `label:Newsletter label:Surfing` Finds all pages with both the **Newsletter** and **Surfing** labels
-- `label:Coding -label:News` Finds all pages with the **Coding** label that do not have the **News** label
-- `label:"Send to Obsidian"` Finds all page with the multi-word label **Send to Obsidian**
+- `label:Newsletter`: Finds all pages that have the label **Newsletter**
+- `label:Cooking,Fitness`: Finds all pages with either the **Cooking** or **Fitness** labels
+- `label:Newsletter label:Surfing`: Finds all pages with both the **Newsletter** and **Surfing** labels
+- `label:Coding -label:News`: Finds all pages with the **Coding** label that do not have the **News** label
+- `label:"Send to Obsidian"`: Finds all pages with the multi-word label **Send to Obsidian**
+- `no:label`: Finds all pages that have **no** labels assigned.
 
-## Filtering by archive status
+Filtering by Archive Status
 
-The `in:` filter is used to filter search by archive status. 
+The in: filter is used to filter search results by their archive status.
 
-The options are:
+Available options:
 
-- `in:inbox` (the default selected option) Show unarchived items
-- `in:archive` Show archived items
-- `in:all` Show all items regardless of archive state
+- `in:inbox` (the default selected option): Show unarchived items.
+- `in:archive`: Show archived items.
+- `in:all`: Show all items regardless of archive state.
+
+Filtering by Item Type
+
+The search supports filtering by the type of item.
+
+Available options:
+
+`in:following`: Show feed and newsletter items  
+`in:library`: Show non-feed items 
 
 ## Filtering for deleted items
 
@@ -52,8 +62,8 @@ The `is:` filter options are:
 
 The `readPosition:` filter can be used to filter your search results based on how much of an item you have read.
 
-- `readPosition:>30`: Shows items where you have **read more than 30%** of the total content.
-- `readPosition:<60`: Shows items where you have **read less than 60%** of the total content.
+- `readPosition:>30`: Show items where you have **read more than 30%** of the total content.
+- `readPosition:<60`: Show items where you have **read less than 60%** of the total content.
 
 For example, `readPosition:>30` will show articles where you have scrolled past 30% of the content. `readPosition:<60` will show articles where you haven't reached 60% of the content yet.
 
@@ -76,9 +86,9 @@ You can filter your searches based on the time they were saved or published usin
 
 For Example:
 
-- `saved:2022-04-21.._` All items saved since 2022-04-21
-- `published:2020-01-01..2022-02-02` All items published between 2020-01-01 and 2022-02-02
-- `published:_..2020-01-01` All items published before 2020-01-01
+- `saved:2022-04-21.._`: All items saved since 2022-04-21
+- `published:2020-01-01..2022-02-02`: All items published between 2020-01-01 and 2022-02-02
+- `published:_..2020-01-01`: All items published before 2020-01-01
 
 ## Filtering by language
 
@@ -86,7 +96,7 @@ You can filter your searches based on the language of the article using the `lan
 
 For example:
 
-- `language:italian` displays only articles in Italian
+- `language:italian`: Displays only articles in Italian
 
 ## Sorting
 
