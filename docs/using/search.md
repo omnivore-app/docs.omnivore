@@ -11,7 +11,7 @@ Omnivore uses search to filter items in your library. You can use a simple keywo
 
 ## Searching for text
 
-Omnivore will perform full text search across library items' content, title, description, and site by default. You can search for specific terms by quoting your terms (i.e. wrapping them in quotes). By default all results that match your search will be returned in the order they were saved. To change your search to sort by relevance use the `sort:score` parameter.
+Omnivore will perform full text search across library items' content, title, description, and site. By default, we look at undeleted and unarchived items, you can change this behavior by using operands like `in:all`, `in:archive` or `in:trash`. You can search for specific terms by quoting your terms (i.e. wrapping them in quotes). By default all results that match your search will be returned in the order they were saved. To change your search to sort by relevance use the `sort:score` parameter.
 
 ## Filtering by label
 
