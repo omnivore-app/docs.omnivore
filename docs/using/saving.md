@@ -39,13 +39,13 @@ Some security policies prevent users from installing browser extensions. If you 
 
 You can use the following code to create a bookmarklet that saves to Omnivore:
 
-```
-javascript:window.open("https://omnivore.app/api/save?url=%22%20+%20window.location.href,%20%27_blank%27);
+```js
+javascript:void(open('https://omnivore.app/api/save?url='+encodeURIComponent(location.href),'Omnivore'))
 ```
 
 Or drag the Save to Omnivore link below into your bookmark manager:
 
-<a href='javascript:window.open("https://omnivore.app/api/save?url=" + window.location.href, %27_blank%27);'>Save to Omnivore</a>
+<a href="javascript:void(open('https://omnivore.app/api/save?url='+encodeURIComponent(location.href),'Omnivore'))">Save to Omnivore</a>
 
 ## Saving from a Phone or Tablet
 
