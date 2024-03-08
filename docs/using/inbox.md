@@ -25,7 +25,7 @@ An Omnivore email address will receive email, detect whether the email is a PDF 
 
 6. New newsletters will be automatically delivered to your Omnivore inbox.
 
-::: tip If Omnivore receives an email that does not look like an article, such as a welcome message, or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
+::: tip If Omnivore receives an email that does not look like an article, such as a welcome message, or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with). If this does not happen and you have difficulty with confirmation, see below, "Incorrect URLs in confirmation emails".
 :::
 
 ## Sending PDFs to your Omnivore Email Address
@@ -47,9 +47,9 @@ To create an article in your library, send an email to your inbox address and ad
 
 Omnivore keeps a list of your recently received emails, no matter how they are classified. These are available on the [settings/emails/recent](https://omnivore.app/settings/emails/recent) page.
 
-### Viewing email text
+### Incorrect URLs in confirmation emals
 
-You can use the recently received emails to retrieve things like subscription confirmation emails. On the recent emails page, find the email, click the menu button and select `View Text`. This will open the text body of the email.
+When you sign up for some services to send emails to Omnivore (most notably, setting up forwarding from Gmail), you will receive a confirmation mail that will be sent to your omnivore account, asking you to copy and paste a url to confirm. In some cases, copying and pasting this url will result in a "Not Found" page, because Omnivore is rendering the link as markdown and thus rewriting it. To solve this, go to [your recent emails page](https://omnivore.app/settings/emails/recent), find the confirmation mail in the list, click on the three dots next to it, and select `View Text`. This will bring up a plain text version of the mail, from which the correct url can be copied.
 
 ### Moving the email to your library
 
