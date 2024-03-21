@@ -146,25 +146,6 @@ So to import the full article content:
 For example:
 
 ```
----
-id: {{{id}}}
-title: >
-  {{{title}}}
-{{#author}}
-author: >
-  {{{author}}}
-{{/author}}
-{{#labels.length}}
-tags:
-{{#labels}} - {{{name}}}
-{{/labels}}
-{{/labels.length}}
-date_saved: {{{dateSaved}}}
-{{#datePublished}}
-date_published: {{{datePublished}}}
-{{/datePublished}}
----
-
 # {{{title}}}
 #Omnivore
 
