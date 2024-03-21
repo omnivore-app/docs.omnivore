@@ -19,6 +19,12 @@ To add a feed to Omnivore navigate to the [feeds page](https://omnivore.app/sett
 
 When a feed is first added, Omnivore will fetch the last 24hrs worth of items or at least one item if there are no items posted in the last 24hrs.
 
+By default Omnivore will fetch the entire content of the feed item from the original URL (`Fetch link: Always`). You can change this and choose:
+
+- `Fetch link: Always`: Always fetch the entire content of the feed item from the original URL.
+- `Fetch link: Never`: Only see the content shared as part of the feed.
+- `Fetch link: When empty`: Only fetch the content from the original URL if the feed item has no content.
+
 ## Organizing Feeds
 
 Feeds will be displayed in the left menu of the Library in the subscriptions section, organized by their name. You can also view all your subscriptions on the [Subscriptions page](https://omnivore.app/settings/subscriptions). This page has all your emails/newsletter and feed subscriptions, and can be used to unsubscribe from items.
