@@ -98,6 +98,14 @@ For example:
 
 - `language:italian`: Displays only articles in Italian
 
+## Filtering by site
+
+You can filter your searches based on the website they come from using the `site:` filter.
+
+For example:
+
+- `site:theverge.com`: Displays only articles that come from The Verge
+
 ## Sorting
 
 By default all search results in Omnivore are sorted by saved date. This puts the most recently saved items at the top of your library. You can use sort options to change the library order:
