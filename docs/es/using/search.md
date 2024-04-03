@@ -60,9 +60,9 @@ Puede filtrar sus búsquedas en función de la hora en que se guardaron o public
 
 Por ejemplo:
 
-- `saved:2022-04-21.._` Todos los artículos guardados desde 2022-04-21
+- `saved:2022-04-21..*` Todos los artículos guardados desde 2022-04-21
 - `published:2020-01-01..2022-02-02` Todos los artículos publicados entre 2020-01-01 y 2022-02-02
-- `published:_..2020-01-01` Todos los artículos publicados antes del 2020-01-01
+- `published:*..2020-01-01` Todos los artículos publicados antes del 2020-01-01
 
 ## Ordenación
 

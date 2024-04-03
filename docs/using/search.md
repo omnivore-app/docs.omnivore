@@ -86,9 +86,9 @@ You can filter your searches based on the time they were saved or published usin
 
 For Example:
 
-- `saved:2022-04-21.._`: All items saved since 2022-04-21
+- `saved:2022-04-21..*`: All items saved since 2022-04-21
 - `published:2020-01-01..2022-02-02`: All items published between 2020-01-01 and 2022-02-02
-- `published:_..2020-01-01`: All items published before 2020-01-01
+- `published:*..2020-01-01`: All items published before 2020-01-01
 
 ## Filtering by language
 
