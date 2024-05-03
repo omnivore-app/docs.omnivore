@@ -26,8 +26,8 @@ To select items in the library use the arrow keys or the j and k keys. If your l
 - `l`: set labels on the selected item
 - `e`: archive the selected item
 - `r`: remove the item
-- `shift` `i`: Mark as read
-- `shift` `u`: Mark as unread
+- `-`: Mark as read
+- `_` `u`: Mark as unread
 
 ### Adding Links with the keyboard
 
