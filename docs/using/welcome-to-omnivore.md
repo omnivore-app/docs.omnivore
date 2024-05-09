@@ -42,7 +42,7 @@ Our native iOS and Android apps sync your reading to the device so it’s availa
 
 You can install the native iOS app [here](https://omnivore.app/install/ios) and the native Android (prelease) app [here](https://omnivore.app/install/android).
 
-Browser extensions can save the URLs and the content of the page you are viewing. They also allow creating notes and adding labels while saving. We have browser extensions available for [Firefox](https://omnivore.app/firefox), [Chrome](https://omnivore.app/chrome), [Edge](https://omnivore.app/install/edge), and [Safari](https://omnivore.app/install/safari).
+Browser extensions can save the URLs and the content of the page you are viewing. They also allow creating notes and adding labels while saving. We have browser extensions available for [Firefox](https://omnivore.app/install/firefox), [Chrome](https://omnivore.app/install/chrome), [Edge](https://omnivore.app/install/edge), and [Safari](https://omnivore.app/install/safari).
 
 ## Get Started
 
