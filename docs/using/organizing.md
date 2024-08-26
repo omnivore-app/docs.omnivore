@@ -13,13 +13,13 @@ By default, the Library inbox displays all links you have saved. To manage your 
 
 1. Tap the Menu icon next to the link you wish to archive (on the mobile app, long press the link to open the menu, or swipe from the right).
 2. Select Archive.
-3. The link will disappear from the default Library view, but will show up if you select the Archived filter (see Filters below).
+3. The link will disappear from the default Library view, but will show up if you select the [Archived filter](./search.md#filtering-by-archive-status).
 
 ## Removing
 
 1. Tap the Menu icon next to the link you wish to delete (on the mobile app, long press the link to open the menu, or swipe from the right).
 2. Select Remove or Remove Item.
-3. The link will disappear from the default Library view, but will show up if you select the Deleted filter (see Filters below) for the next 2 weeks.
+3. The link will disappear from the default Library view, but will show up if you select the [Deleted filter](./search.md#filtering-for-deleted-items) for the next 2 weeks.
 
 ## Labels
 
@@ -34,4 +34,4 @@ By default, the Library inbox displays all links you have saved. To manage your 
 
 Omnivore uses allows full-text search of your entire library. To search through all your saved links, enter a keyword or phrase in the search bar.
 
-You can combine keywords with labels and filters to focus your search even further using [advanced search](./search).
+You can combine keywords with labels and filters to focus your search even further using [advanced search](./search.md).
