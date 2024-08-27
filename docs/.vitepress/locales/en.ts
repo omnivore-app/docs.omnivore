@@ -24,7 +24,7 @@ export const themeConfig: DefaultTheme.Config = {
       text: "Using Omnivore",
       items: [
         { text: "Installation", link: "/using/install" },
-        { text: "Saving Links", link: "/using/saving" },
+        { text: "Saving Content", link: "/using/saving" },
         { text: "Reading", link: "/using/reading" },
         { text: "Email Inbox", link: "/using/inbox" },
         { text: "Feeds (RSS & Atom)", link: "/using/feeds" },

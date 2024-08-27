@@ -1,5 +1,5 @@
 ---
-title: Saving to your Omnivore Library
+title: Saving Content to your Omnivore Library
 editLink: true
 ---
 
@@ -11,7 +11,7 @@ There are five ways to save links to pages or articles that you wish to read lat
 
 ## Saving from Your Omnivore Library
 
-1. In the upper right corner of your Library, tap the Add Link button.
+1. In the upper right corner (or at the bottom of the sidebar in the web version) of your Library, tap the Add Link button.
 2. Enter the URL you wish to save and tap Add Link.
 3. The link will appear in your Library the next time you refresh it.
 
@@ -62,17 +62,9 @@ Once the mobile app is installed:
 
 ## Newsletter Subscriptions via Email
 
-- On the Omnivore website or app, tap your photo, initial, or avatar in the top right corner to access the profile menu. Select Emails from the menu.
-- Tap Create a New Email Address to add a new email address (e.g. username-123abc@inbox.omnivore.app) to the list.
-- Click the Copy icon next to the email address.
-- Navigate to the signup page for the newsletter you wish to subscribe to.
-- Paste the Omnivore email address into the signup form.
-- New newsletters will be automatically delivered to your Omnivore inbox.
+See [using you email Inbox](./inbox.md#receiving-newsletter-subscriptions-via-email)
 
-::: tip If Omnivore receives an email that does not look like an article, such as a welcome message or note from the author, it will be forwarded to your Omnivore account email address (the email you registered with).
-:::
-
-## Saving PDFs from a Mac
+## Saving PDFs from a Mac or by email
 
 - Install the [Mac App](https://omnivore.app/install/mac).
 - On your Mac, locate the PDF you wish to save and right-click or command+click on the file name.
@@ -80,6 +72,8 @@ Once the mobile app is installed:
 
 The link will appear in your Library the next time you refresh it.
 
-## Demonstration
+Alternatively you can use the [email feature](inbox.mdl#sending-pdfs-to-your-omnivore-email-address) to send a PDF document to your Omnivore library.
+
+## Watch it in action - 10 ways to add items to your Omnivore library
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/HfQxQPT5-tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
