@@ -72,7 +72,7 @@ See [using you email Inbox](./inbox.md#receiving-newsletter-subscriptions-via-em
 
 The link will appear in your Library the next time you refresh it.
 
-Alternatively you can use the [email feature](inbox.mdl#sending-pdfs-to-your-omnivore-email-address) to send a PDF document to your Omnivore library.
+Alternatively you can use the [email feature](inbox.md#sending-pdfs-to-your-omnivore-email-address) to send a PDF document to your Omnivore library.
 
 ## Watch it in action - 10 ways to add items to your Omnivore library
 
