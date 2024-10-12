@@ -67,6 +67,17 @@ The `readPosition:` filter can be used to filter your search results based on ho
 
 For example, `readPosition:>30` will show articles where you have scrolled past 30% of the content. `readPosition:<60` will show articles where you haven't reached 60% of the content yet.
 
+## Filtering by word count
+
+The `wordsCount:` filter is used to filter search by how much words an item has.
+
+For example:
+
+- `wordsCount:>50`: Show items that have more than 50 words
+- `wordsCount:<100`: Show items that have less than 100 words
+
+This filter can help you filtering out paywalled content as well.
+
 ## Filtering by type
 
 The `type:` filter is used to filter search by type.
