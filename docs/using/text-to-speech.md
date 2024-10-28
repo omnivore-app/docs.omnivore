@@ -27,12 +27,6 @@ You can follow along with the text while it is read aloud. Swipe left or right t
 - Tap the down-arrow or swipe down from the top to use mini-player mode.
 - Tap the three dots icon to access additional playback controls.
 
-## Downloading audio for Offline Playback
-
-From the library view, long press on any item and choose Download Audio. This will download an offline version of the article that can be played back later.
-
-![Downloading offline TTS on iOS](./images/ios-text-to-speech-002.png)
-
 ## Demonstration
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/wyy1vC-e338" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
