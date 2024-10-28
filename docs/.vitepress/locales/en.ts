@@ -34,6 +34,7 @@ export const themeConfig: DefaultTheme.Config = {
         { text: "Saved Searches", link: "/using/saved-searches" },
         { text: "Rules", link: "/using/rules" },
         { text: "Importing Data", link: "/using/importing" },
+        { text: "Exporting Data", link: "/using/exporting" },
         { text: "Keyboard Commands", link: "/using/keyboard" },
         {
           text: "Managing your Account",
