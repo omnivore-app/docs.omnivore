@@ -48,6 +48,7 @@ export const themeConfig: DefaultTheme.Config = {
       items: [
         { text: "Logseq", link: "/integrations/logseq" },
         { text: "Obsidian", link: "/integrations/obsidian" },
+        { text: "Org Mode", link: "/integrations/org-mode" },
         { text: "API", link: "/integrations/api" },
         { text: "Webhooks", link: "/integrations/webhooks" },
       ],
