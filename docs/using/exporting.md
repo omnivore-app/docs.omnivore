@@ -24,3 +24,19 @@ The archive will contain a few items:
 1. `./contents/*.html`: this is all of the content of your saved pages
 2. `./highlights/*.md`: this is all of your highlights saved in markdown format. The slug attribute from your metadata is used as the filename.
 3. `metadata_*.json`: Metadata files for all your saved items. These are provided in batches of 20 items. So items 0-20, 20-40, etc.
+
+### Converting exported data to CSV
+
+You can use the `jq` tool to convert the JSON files to CSV:
+
+To create a single column CSV with all your urls, in the directory with your json files:
+
+```
+jq -r '.[].url' *.json
+```
+
+To create a CSV that also contains your labels, you can use this command:
+
+```
+jq -r '[.[] | {url: .url, labels: (.labels | join(","))} | "\(.url),\"\(.labels)\""] | @csv' *.json
+```
